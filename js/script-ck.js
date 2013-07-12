@@ -1,0 +1,1 @@
+(function(){var e=$(window).height();$("#home").css("height",e);$("header").fadeIn("slow");$(window).scroll(function(){$(window).scrollTop()>20?$(".main-nav").addClass("nav-scrolled"):$(".main-nav").removeClass("nav-scrolled")});$("#home .main-nav").delay(1500).queue(function(e){$(this).css("top","0");e()});jQuery("header h1").fitText(.75);jQuery("header h2").fitText(5)})();

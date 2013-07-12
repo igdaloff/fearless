@@ -27,6 +27,9 @@ body {
 	line-height: 1;
 	text-rendering: optimizeLegibility;
 	color: @black;
+	font-family: @sans;
+	background: @white;
+	-webkit-backface-visibility: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -96,20 +99,68 @@ BOX-SHADOW
 /*------------------------------
 COLORS
 ------------------------------*/
-@white		:		#fff;
-@blue			:		#6b849e;
-@black		:		#222;
+@white		:		#F2EFE4;
+@blue			:		#778BA6;
+@black		:		#3B3C40;
 
 /*------------------------------
 TYPOGRAPHY
 ------------------------------*/
 @sans: "museo-sans-condensed-1", "museo-sans-condensed-2", helvetica, sans-serif;
+@serif: "georgia", serif;
 
+h3{
+	margin-bottom: 0.1em;
+	font-size: 3em;
+	font-weight: 700;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+h4{
+	margin-bottom: 0.25em;
+	font-size: 1.4em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h5{
+	margin-bottom: 0.5em;
+}
+
+p{
+	font-size: 1.1em;
+	font-weight: 300;
+	line-height: 1.4;
+	margin-bottom: 1em;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
 
 /*-------------------------------------------------------------------------
 FORM ELEMENTS
 -------------------------------------------------------------------------*/
 .button{
+	padding: 0 1em;
+	height: 2.5em;
+	line-height: 1.75;
+	border: 1px solid @white;
+	border-radius: 1px;
+	font-weight: 500;
+	color: @white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	.box-sizing;
+	.transition;
+	-webkit-backface-visibility: hidden;
+
+	&:hover{
+		border-color: @black;
+		color: @black;
+	}
 }
 
 
@@ -117,35 +168,61 @@ FORM ELEMENTS
 GENERAL LAYOUT
 -------------------------------------------------------------------------*/
 .wrapper{
-	width: 80%;
+	width: 60%;
 	margin: 0 auto;
 	position: relative;
 	max-width:1200px;
+}
+
+section{
+	padding: 4em 0;
+}
+
+.page-inner{
+
+	p{
+		text-align: justify;
+	}
+
+	a{
+		font-weight: 500;
+		text-decoration: underline;
+		.transition;
+
+		&:hover{
+			color: @blue;
+		}
+	}
+
+	ul{
+		margin-bottom: 1em;
+	}
+
+	.button{
+		border-color: @blue;
+		color: @blue;
+		text-decoration: none;
+	}
 }
 
 /*-------------------------------------------------------------------------
 HOME
 -------------------------------------------------------------------------*/
 #home{
+	background: url(../images/main-bg.jpg) no-repeat bottom;
+}
 
-	img{
-	  min-height: 100%;
-	  min-width: 1600px;
-	  width: 100%;
-	  height: auto;
-	  position: fixed;
-	  bottom: 0;
-	  left: 0;
-	}
+.main{
 
 	header{
+		display: none;
 		position: absolute;
-		top: 17em;
+		top: 40%;
 		left: 50%;
-		width: 80%;
 		margin-left: -40%;
-		color: @white;
+		width: 80%;
 		text-align: center;
+		color: @white;
 	}
 }
 
@@ -169,7 +246,11 @@ h2{
 /*-------------------------------------------------------------------------
 NAV
 -------------------------------------------------------------------------*/
-#main-nav{
+#home .main-nav{
+	top: -3em;
+}
+
+.main-nav{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -185,6 +266,8 @@ NAV
 	font-size: 0.9em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	.transition(@duration: 0.5s, @ease: ease);
+	z-index: 10000;
 
 	ul{
 		clear:left;
@@ -210,34 +293,43 @@ NAV
 	}
 
 	.donate-button{
-		padding: 0 1em;
-		height: 2.5em;
-		line-height: 2.5;
 		margin-top: 0.2em;
-		border: 1px solid @white;
-		border-radius: 1px;
-		font-weight: 700;
-		color: @white;
-		.box-sizing;
-		.transition;
-		-webkit-backface-visibility: hidden;
+		line-height: 2.4;
+	}
+}
+
+.nav-scrolled{
+	background: @white;
+	.box-shadow(0 5px 10px rgba(0,0,0,0.1));
+
+	.donate-button{
+		border-color: @black;
+		color: @black;
 
 		&:hover{
-			background: @white;
-			color: @black;
+			border-color: @blue;
+			color: @blue;
+		}
+	}
+
+	.button-slide-in div{
+
+		&:hover{
+			color: @white;
+		}
+
+    &:nth-child(2){
+	    background-color: @blue;
 		}
 	}
 }
 
-.button-base{
+.button-slide-in{
   position: relative;
   height: 3em;
   text-align: center;
 	.box-sizing;
   -webkit-user-select: none;
-}
-
-.button-slide-in{
   overflow: hidden;
 
 	div {
@@ -260,7 +352,7 @@ NAV
 	    transition: top 0.15s ease;
 	    -webkit-transition: top 0.15s ease;
 	    -moz-transition: top 0.15s ease;
-	    top: -3em;
+	    top: -3.2em;
 	    z-index: -1;
     }
 
@@ -289,11 +381,62 @@ NAV
 	}
 }
 
-@media screen and (max-width: 1600px) {
+/*-------------------------------------------------------------------------
+MINIMAL CONTENT SECTIONS
+-------------------------------------------------------------------------*/
+#story{
+	.page-inner{
+		padding: 2.5em 0 2.6em;
+		border-top: 4px double @black;
+		border-bottom: 4px double @black;
+		.box-shadow(0 1px 0 0 @black, 0 -1px 0 0 @black);
+	}
 
-	#home img{
-    left: 50%;
-    margin-left: -800px;
-  }
+	p, h3{
+		text-align: center;
+	}
+}
 
+#story, #cast, #trailer{
+
+}
+
+/*-------------------------------------------------------------------------
+AFI
+-------------------------------------------------------------------------*/
+#afi{
+
+}
+
+/*-------------------------------------------------------------------------
+DONATE
+-------------------------------------------------------------------------*/
+#donate{
+
+	.page-inner{
+
+		.button{
+			font-size: 2em;
+		}
+	}
+}
+
+@import 'filmmakers.less';
+
+@media screen and (min-width: 37.5em) { /*600px*/
+	body{
+		font-size: 90%;
+	}
+}
+
+@media screen and (min-width: 50em) { /*800px*/
+	body{
+		font-size: 100%;
+	}
+}
+
+@media screen and (min-width: 62.5em) { /*1000px*/
+	body{
+		font-size: 110%;
+	}
 }
