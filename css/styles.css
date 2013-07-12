@@ -155,12 +155,17 @@ COLORS
 TYPOGRAPHY
 ------------------------------*/
 h3 {
-  margin-bottom: 0.1em;
+  padding-bottom: 0.1em;
+  margin-bottom: 0.4em;
   font-size: 3em;
   font-weight: 700;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  border-bottom: 4px double #f2efe4;
+  -moz-box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
 }
 h4 {
   margin-bottom: 0.25em;
@@ -174,7 +179,7 @@ h5 {
 p {
   font-size: 1.1em;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.3;
   margin-bottom: 1em;
 }
 p:last-child {
@@ -404,6 +409,14 @@ NAV
 /*-------------------------------------------------------------------------
 MINIMAL CONTENT SECTIONS
 -------------------------------------------------------------------------*/
+#story h3 {
+  border: none;
+  -moz-box-shadow: 0, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 0, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  padding: 0;
+  margin-bottom: 0.1em;
+}
 #story .page-inner {
   padding: 2.5em 0 2.6em;
   border-top: 4px double #3b3c40;
@@ -416,12 +429,19 @@ MINIMAL CONTENT SECTIONS
 #story h3 {
   text-align: center;
 }
-/*-------------------------------------------------------------------------
-AFI
--------------------------------------------------------------------------*/
+#cast {
+  background: #69788c;
+  color: #f2efe4;
+}
 /*-------------------------------------------------------------------------
 DONATE
 -------------------------------------------------------------------------*/
+#donate h3 {
+  border-bottom-color: #3b3c40;
+  -moz-box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+}
 #donate .page-inner .button {
   font-size: 2em;
 }
@@ -434,6 +454,9 @@ DONATE
 }
 #filmmakers h4 {
   font-weight: 300;
+}
+#filmmakers p {
+  line-height: 1.2;
 }
 .filmmakers-list {
   *zoom: 1;
@@ -449,7 +472,7 @@ DONATE
 .filmmakers-list li {
   display: inline-block;
   padding: 1.5em 0;
-  border-bottom: 1px solid #3b3c40;
+  border-bottom: 1px solid #f2efe4;
 }
 .filmmakers-list li:last-child {
   border: none;
@@ -472,15 +495,81 @@ DONATE
   color: #3b3c40;
   font-weight: 900;
 }
+.filmmakers-list a:hover {
+  color: #f2efe4;
+}
 @media screen and (min-width: 62.5em) {
   /*1000px*/
   .filmmakers-list img {
     margin-right: 2.5%;
-    width: 42.5%;
+    width: 48.75%;
   }
   .filmmakers-list .bio-text {
-    width: 55%;
+    width: 48.75%;
     margin: 0;
+  }
+}
+#afi {
+  background: #778ba6;
+  color: #f2efe4;
+}
+#afi h3 {
+  border-bottom-color: #f2efe4;
+  -moz-box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+}
+.main-afi-image {
+  float: right;
+  margin: 2.5% 0 1% 2.5%;
+}
+.alumni {
+  margin: 2em 0;
+  text-align: center;
+}
+.alumni-list {
+  display: inline-block;
+  color: #3b3c40;
+  padding: 1em 0 0 1em;
+}
+.alumni-list li {
+  padding: 2em 1em 2em 0;
+  border-top: 1px solid #f2efe4;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.alumni-list img {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.alumni-list h5 {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.alumni-list h5 span {
+  color: #f2efe4;
+  font-weight: 900;
+}
+.class-of,
+.films {
+  display: block;
+}
+.class-of {
+  margin-bottom: 0.5em;
+}
+@media screen and (min-width: 50em) {
+  /*800px*/
+  .alumni-list li {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 62.5em) {
+  /*1000px*/
+  .alumni-list li {
+    width: 33.333333%;
   }
 }
 @media screen and (min-width: 37.5em) {

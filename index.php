@@ -40,23 +40,23 @@
 				<li>
 					<img src="../images/filmmakers/risto.jpg" alt="Dawn DeVoe image" />
 					<div class="bio-text">
-						<h4><span>Risto Tuominen</span>&nbsp; Director</h4>
-						<p>Risto Tuominen is a Finnish-born filmmaker who studies directing at the American Film Institute. Before relocating to Los Angeles he has spent several years in the Finland’s film industry, working mostly as a production manager and an assistant director in more than 20 feature films and 50 commercial film productions. Tuominen has also served three years in the Finnish Defence Forces. In 2008, he took part in the peacekeeping operation in Afghanistan.</p>
+						<h4><span>Risto Tuominen</span>&nbsp; Director / Writer</h4>
+						<p>Risto Tuominen is a Finnish-born filmmaker who studies directing at the American Film Institute. Before relocating to Los Angeles he spent several years in the Finland’s film industry, working mostly as a production manager and an assistant director for more than 20 feature films and 50 commercial film productions. Risto has also served three years in the Finnish Defence Forces. In 2008, he took part in the peacekeeping operation in Afghanistan.</p>
 						<p><a href="http://ristotuominen.com">Director's Vision Statement</a></p>
 					</div>
 				</li>
 				<li>
 					<img src="../images/filmmakers/dawn.jpg" alt="Dawn DeVoe image" />
 					<div class="bio-text">
-						<h4><span>Dawn DeVoe</span>&nbsp; Producer</h4>
-						<p>Dawn DeVoe is an aspiring film producer from New York City. Dawn graduated from St. Michael’s College with a degree in Psychology, minoring in fine arts and traveling abroad to study cultural anthropology in Zimbabwe. She recently studied film at UCLA and NYU. Dawn joined VH1 in 2003, where she currently works as a line producer on franchises such as MOB WIVES, I LOVE THE... and 100/40 GREATEST COUNTDOWNS. In 2008, Dawn produced the short film HARDWOOD, which screened at the LA Shorts Fest and Cannes Short Film Corner before being acquired by Sony/Lionsgate.</p>
+						<h4><span>Dawn DeVoe</span>&nbsp; Producer / Writer</h4>
+						<p>Dawn DeVoe is an aspiring film producer from New York City. Dawn graduated from St. Michael’s College with a degree in Psychology, minoring in fine arts and traveling abroad to study cultural anthropology in Zimbabwe. Before attending the American Film Institute, Dawn worked at VH1 as a line producer on franchises such as MOB WIVES, I LOVE THE... and 100/40 GREATEST COUNTDOWNS. In 2008, Dawn produced the short film HARDWOOD, which screened at the LA Shorts Fest and Cannes Short Film Corner before being acquired by Sony/Lionsgate.</p>
 					</div>
 				</li>
 				<li>
 					<img src="../images/filmmakers/wu.jpg" alt="Dawn DeVoe image" />
 					<div class="bio-text">
 						<h4><span>Ed Wu</span>&nbsp; Cinematographer</h4>
-						<p>Ed Wu is a recent graduate of Indiana University, with BAs in Telecommunications, Communications and Culture and East Asian Studies. He was recognized for his work on the short film SPARKS, featured at the 2011 Campus Movie Fest International Grand Finale as a Best Picture Nominee, also earning a spot at Cannes in the Short Film Corner. Additionally, his work on the feature film NATHAN AND THE LUTHIER earned an official acceptance into the 2011 Heartland Film Festival. He has also earned a 2012 Silver Telly Award for his work on the IU Football “Win Today” TV commercial.</p>
+						<p>Ed Wu explores the world through the lens of his camera. An honorary Hoosier from Long Island, NY, Ed transplanted to Los Angeles in search of uncovering and learning the magic behind visual storytelling. Through his experiences as a cinematographer and wanderer of the world, he’s seen the power of an image and constantly searches for the perfect frame to tell the story.  Ed’s body of work ranges from music videos, documentaries, narratives, and commercials for corporate clients such as Wal-Mart, Popular Mechanics, and New Era.  His film SPARKS has received recognition at the Short Film Corner at Cannes International Film Festival and a Best Picture nomination at the CMF International Grand Finale. Additionally, his work on the feature film NATHAN AND THE LUTHIER earned an official acceptance into the Heartland Film Festival and YES Film Festival.</p>
 					</div>
 				</li>
 				<li>
@@ -99,17 +99,142 @@
 	<section id="cast" class="main">
 		<div class="page-inner wrapper">
 			<h3>Cast</h3>
-			<p>Casting starts in September of 2013 and will be locked by November 2013. Come back then!</p>
+			<p>Casting starts in September 2013 and will be locked by November. Come back then!</p>
 		</div>
 	</section>
 
 	<section id="afi" class="main">
 		<div class="page-inner wrapper">
 			<h3>About the AFI Conservatory</h3>
-			<p>At the world-renowned AFI Conservatory, a dedicated group of working professionals from the film and television communities serve as mentors in a hands-on, production-based environment nurturing the talents of tomorrow's storytellers.</p>
-			<p>With an emphasis on narrative visual storytelling and personal expression, each class breaks into teams that mirror a real production environment. Those teams collaborate on and produce more films than any other graduate level film program.</p>
-			<p>Established in 1969, the two-year Master of Fine Arts program provides training in six filmmaking disciplines: Cinematography, Directing, Editing, Producing, Production Design and Screenwriting. Admission to AFI Conservatory is highly selective, with a maximum of only 140 graduates per year.</p>
-			<p>AFI alumni continually celebrate critical recognition, including wins at the Academy Awards (Wally Pfister, INCEPTION, cinematography class of 1988), Emmy Awards (Dante Di Loreto, TEMPLE GRANDIN, producing class of 1991), Tony Awards (Anne Garefino, "The Book of Mormon," producing class of 1988) and the Grand Prizes at the Cannes Film Festival (Terrence Malick, TREE OF LIFE, directing class of 1969) and Sundance Film Festival (Drake Doremus, LIKE CRAZY, directing class of 2005). Most recently, multiple AFI alumni received 2011 Emmy Award nominations, including Patty Jenkins (THE KILLING, directing class of 2000), Anne Garefino (SOUTH PARK, producing class of 1988), Brad Falchuk (GLEE, screenwriting class of 1996), Dante Di Loreto (GLEE, producing class of 1991), Bradley Buecker (GLEE, directing class of 2003), Jeremy Podeswa (BOARDWALK EMPIRE, directing class of 1984), Manny Cotto (DEXTER, directing class of 1984) and Paul Starkman (TOP CHEF, cinematography class of 1998).</p>
+			<p>"Art is a nation’s most precious heritage.</p>
+			<p>For it is in our works of art that we reveal to ourselves, and to others, the inner vision which guides us as a nation, and where there is no vision, the people perish.</p>
+			<p>We will create an American film institute, bringing together leading artists of the film industry, outstanding educators and young men and women who wish to pursue the 20th century art form as their life’s work."</p>
+			<img class="main-afi-image" src="images/afi/afi-wb-building.jpg" alt="AFI Warner Brother's Building" />
+			<p>President Lyndon B. Johnson<br>September 29, 1965</p>
+			<p>Consistently regarded as one of the top film schools in the world, the American Film Institute Conservatory has been training award-winning filmmakers since its establishment in 1969. As part of the American Film Institute's dedication to preserving and expanding America's film heritage, the Conservatory's Masters of Fine Arts program is highly selective and provides a unique hands-on approach that provides students an opportunity to produce more films than any other graduate film program. The two-year Master of Fine Arts program emphasizes narrative visual storytelling and personal expression and culminates with the collaboration of fellows from the six disciplines — Cinematography, Directing, Editing, Producing, Production Design and Screenwriting — on a thesis film produced in a professional-style environment.</p>
+			<p>AFI thesis films have garnered numerous prestigious awards, including several Oscar nominations, the Oscar for best narrative short, the Student Oscar, the Director's Guild of America Awards, several American Society of Cinematography Awards, and top honors from the American Cinema Editors.</p>
+			<p>Traditionally AFI thesis films are instrumental in launching its fellows' careers in film.</p>
+			<div class="alumni">
+				<h4>Notable Alumni</h4>
+				<ul class="alumni-list">
+					<li>
+						<img src="images/afi/malick.jpg" alt="Terrence Malick" />
+						<h5><span>Terrence Malick</span>&nbsp; Director</h5>
+						<span class="class-of">&mdash; AFI Class of 1969 &mdash;</span>
+						<span class="films">THE TREE OF LIFE, THIN RED LINE</hspan>
+					</li>
+
+					<li>
+						<img src="images/afi/lynch.jpg" alt="David Lynch" />
+						<h5><span>David Lynch</span>&nbsp; Director</h5>
+						<span class="class-of">&mdash; AFI Class of 1970 &mdash;</span>
+						<span class="films">BLUE VELVET, MULHOLLAND DRIVE</span>
+					</li>
+
+					<li>
+						<img src="images/afi/aronofsky.jpg" alt="Darren Aronofsky" />
+						<h5><span>Darren Aronofsky</span>&nbsp; Director</h5>
+						<span class="class-of">&mdash; AFI Class of 1992 &mdash;</span>
+						<span class="films">BLACK SWAN, REQUIEM FOR A DREAM</span>
+					</li>
+
+					<li>
+						<img src="images/afi/brugge.jpg" alt="Pieter Jan Brugge" />
+						<h5><span>Pieter Jan Brugge</span>&nbsp; Producer</h5>
+						<span class="class-of">&mdash; AFI Class of 1979 &mdash;</span>
+						<span class="films">THE INSIDER, HEAT</span>
+					</li>
+
+					<li>
+						<img src="images/afi/kaminski.jpg" alt="Janusz Kaminski" />
+						<h5><span>Janusz Kamiński</span>&nbsp; Cinematographer</h5>
+						<span class="class-of">&mdash; AFI Class of 1987 &mdash;</span>
+						<span class="films">LINCOLN, SCHINDLER'S LIST</span>
+					</li>
+
+					<li>
+						<img src="images/afi/cassidy.jpg" alt="Jay L. Cassidy" />
+						<h5><span>Jay L. Cassidy</span>&nbsp; Editor</h5>
+						<span class="class-of">&mdash; AFI Class of 1976 &mdash;</span>
+						<span class="films">INTO THE WILD, SILVER LININGS PLAYBOOK</span>
+					</li>
+
+	<!-- 			No headshots FOR THE BELOW PEPOLE:  JUST LIST OUT. -->
+
+					<li>
+						<h5><span>Jonathan Alberts</span>&nbsp; Editor</h5>
+						<span class="class-of">&mdash; AFI Class of 2001 &mdash;</span>
+						<span class="films">LIKE CRAZY, PEDRO</span>
+					</li>
+
+					<li>
+						<h5><span>Scott Frank</span>&nbsp; Screenwriter</h5>
+						<span class="class-of">&mdash; AFI Class of 1984 &mdash;</span>
+						<span class="films">MINORITY REPORT, OUT OF SIGHT</span>
+					</li>
+
+					<li>
+						<h5><span>Anne Garefino</span>&nbsp; Producer</h5>
+						<span class="class-of">&mdash; AFI Class of 1988 &mdash;</span>
+						<span class="films">SOUTH PARK, TEAM AMERICA: WORLD POLICE</span>
+					</li>
+
+					<li>
+						<h5><span>Franco Giacomo-Carbone</span>&nbsp; Production Designer</h5>
+						<span class="class-of">&mdash; AFI Class of 1996 &mdash;</span>
+						<span class="films">THE EXPENDABLES, RAMBO</span>
+					</li>
+
+					<li>
+						<h5><span>Steve Golin</span>&nbsp; Producer</h5>
+						<span class="class-of">&mdash; AFI Class of 1981 &mdash;</span>
+						<span class="films">BABEL, ETERNAL SUNSHINE OF THE SPOTLESS MIND</span>
+					</li>
+
+					<li>
+						<h5><span>Affonso Gonçalves</span>&nbsp; Editor</h5>
+						<span class="class-of">&mdash; AFI Class of 1993 &mdash;</span>
+						<span class="films">THE BEASTS OF THE SOUTHERN WILD, WINTER'S BONE</span>
+					</li>
+
+					<li>
+						<h5><span>Patty Jenkins</span>&nbsp; Director</h5>
+						<span class="class-of">&mdash; AFI Class of 2000 &mdash;</span>
+						<span class="films">MONSTER, THE KILLING (pilot)</span>
+					</li>
+
+					<li>
+						<h5><span>John McTiernan</span>&nbsp; Director</h5>
+						<span class="class-of">&mdash;AFI Class of 1975 &mdash;</span>
+						<span class="films">DIE HARD, PREDATOR</span>
+					</li>
+
+					<li>
+						<h5><span>Rick McCallum</span>&nbsp; Producer</h5>
+						<span class="class-of">&mdash;AFI Class of 1975 &mdash;</span>
+						<span class="films">RED TAILS, STAR WARS: EPISODES 1, 2, 3, 4, 5, 6</span>
+					</li>
+
+					<li>
+						<h5><span>Wally Pfister</span>&nbsp; Cinematographer</h5>
+						<span class="class-of">&mdash;AFI Class of 1988 &mdash;</span>
+						<span class="films">INCEPTION, THE DARK KNIGHT</span>
+					</li>
+
+					<li>
+						<h5><span>Robert Richardson</span>&nbsp; Cinematographer</h5>
+						<span class="class-of">&mdash;AFI Class of 1979 &mdash;</span>
+						<span class="films">DJANGO UNCHAINED, HUGO</span>
+					</li>
+
+					<li>
+						<h5><span>Ed Zwick</span>&nbsp; Director</h5>
+						<span class="class-of">&mdash;AFI Class of 1975 &mdash;</span>
+						<span class="films">BLOOD DIAMOND, GLORY</span>
+					</li>
+				</ul>
+			</div>
+			<p>Visit <a href="http://afi.com" target="_blank">www.afi.com</a></p>
 		</div>
 	</section>
 
