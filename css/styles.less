@@ -151,19 +151,22 @@ FORM ELEMENTS
 	padding: 0 1em;
 	height: 2.5em;
 	line-height: 1.75;
-	border: 1px solid @white;
+	background: @blue;
+	border: 1px solid @blue;
 	border-radius: 1px;
 	font-weight: 500;
 	color: @white;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
 	.box-sizing;
 	.transition;
 	-webkit-backface-visibility: hidden;
 
 	&:hover{
-		border-color: @black;
-		color: @black;
+		background: none;
+		color: @blue;
 	}
 }
 
@@ -179,7 +182,11 @@ GENERAL LAYOUT
 }
 
 section{
+	position: relative;
 	padding: 4em 0;
+	margin-bottom: 6em;
+	.box-shadow(5px -5px 50px 0px fadeout(@black, 70%), 5px 5px 50px 0px fadeout(@black, 70%));
+
 }
 
 .page-inner{
@@ -198,21 +205,40 @@ section{
 		}
 	}
 
+	.button{
+		text-decoration: none;
+	}
+
 	ul{
 		margin-bottom: 1em;
 	}
+}
 
-	.button{
-		border-color: @blue;
-		color: @blue;
-		text-decoration: none;
-	}
+.separator-bg{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: 6em;
+	z-index: -5;
+}
+
+.sky1{
+	background: url(../images/separator1-bg.jpg) fixed top no-repeat;
+}
+
+.sky2{
+	background: url(../images/main-bg.jpg) fixed top no-repeat;
 }
 
 /*-------------------------------------------------------------------------
 HOME
 -------------------------------------------------------------------------*/
 #home{
+	position: relative;
 	background: url(../images/main-bg.jpg) no-repeat bottom;
 }
 
@@ -297,24 +323,19 @@ NAV
 	}
 
 	.donate-button{
-		margin-top: 0.2em;
+		margin: 0.25em 0 0 1.2em;
 		line-height: 2.4;
+
+		&:hover{
+			color: @white;
+			border-color: @white;
+		}
 	}
 }
 
 .nav-scrolled{
 	background: @white;
 	.box-shadow(0 5px 10px rgba(0,0,0,0.1));
-
-	.donate-button{
-		border-color: @black;
-		color: @black;
-
-		&:hover{
-			border-color: @blue;
-			color: @blue;
-		}
-	}
 
 	.button-slide-in div{
 
@@ -326,6 +347,15 @@ NAV
 	    background-color: @blue;
 		}
 	}
+
+	.donate-button{
+
+		&:hover{
+			color: @blue;
+			border-color: @blue;
+		}
+	}
+
 }
 
 .button-slide-in{
@@ -389,6 +419,8 @@ NAV
 MINIMAL CONTENT SECTIONS
 -------------------------------------------------------------------------*/
 #story{
+	background: @white;
+
 
 	h3{
 		border: none;
@@ -418,21 +450,99 @@ MINIMAL CONTENT SECTIONS
 DONATE
 -------------------------------------------------------------------------*/
 #donate{
+	background: @white;
 
 	h3{
 		border-bottom-color: @black;
 		.box-shadow(0 1px 0 0 @black);
 	}
 
-	.page-inner{
+	.button{
+		display: inline-block;
+		font-size: 1.8em;
+		padding: 0.5em 0;
+		margin: 1em 0 1.5em;
+		width: 100%;
+		line-height: 1.45;
+	}
 
-		.button{
-			font-size: 2em;
+	.team-photo-wrapper{
+		text-align: center;
+		padding: 0 15% 1em;
+
+		img{
+			width: 100%;
+			border-radius: 1px;
 		}
 	}
 }
 
+/*-------------------------------------------------------------------------
+CONTACT / FOOTER
+-------------------------------------------------------------------------*/
+#contact{
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 6em;
+	padding: 1em 0;
+	.box-sizing;
+	.box-shadow(0 0 0 transparent);
+	.clearfix;
 
+	h3{
+		border-bottom-color: @black;
+		.box-shadow(0 1px 0 0 @black);
+	}
+
+	h4{
+		font-size: 1em;
+	}
+
+	.footer-logo, .footer-contact, .footer-address, .footer-buttons{
+		float: left;
+		width: 25%;
+		padding-right: 5%;
+		.box-sizing;
+	}
+
+	.footer-logo{
+		display: inline-block;
+		font-size: 1.2em;
+		font-weight: 300;
+		letter-spacing: 0.4em;
+		line-height: 4;
+		text-align: left;
+		text-transform: uppercase;
+	}
+
+	ul{
+		font-size: 0.8em;
+		line-height: 1.3;
+		text-align: left;
+
+		a{
+			text-decoration: none;
+		}
+	}
+
+	.footer-buttons{
+		padding: 0;
+
+		ul{
+			text-align: right;
+		}
+
+		.button{
+			display: inline-block;
+			width: 80%;
+			margin-bottom: 0.5em;
+			font-size: 1.1em;
+			line-height: 2.35;
+		}
+	}
+}
 @import 'filmmakers.less';
 @import 'afi.less';
 

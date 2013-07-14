@@ -31,7 +31,9 @@
 			<h3>The Story</h3>
 			<p>Glider pilot Grace Collins finds her world turned upside-down when Jericho Rhodes, her ex-fiancé, wills her his cryo-preserved sperm following his death while fighting in Afghanistan. Recently engaged to adventure writer Vaughn Clover, Grace finds herself torn between a bright future and forgotten passions. Confronted with the dilemma of a lifetime, Grace must decide what she values most.</p>
 		</div>
+		<div class="separator-bg sky1"></div>
 	</section>
+
 
 	<section id="filmmakers" class="main">
 		<div class="page-inner wrapper">
@@ -68,13 +70,17 @@
 				</li>
 			</ul>
 		</div>
+		<div class="separator-bg sky2"></div>
 	</section>
 
 	<section id="donate" class="main">
 		<div class="page-inner wrapper">
-			<h3>Donate</h3>
-				<a class="button" href="">Donate</a>
+			<h3>Contribute to the Film</h3>
+			<a class="button" href="">Click Here to Donate</a>
 			<p>FEARLESS is a thesis film for Master of Fine Arts degree for directing fellow Risto Tuominen, producing fellow Dawn DeVoe, cinematography fellow Edward Wu and editing fellow John&nbsp;Carner.</p>
+			<div class="team-photo-wrapper">
+				<img src="images/donate/team.jpg" alt="Fearless Team Photo" />
+			</div>
 			<p>As students and independent filmmakers, we depend on the generosity of our relatives, friends, and other third party contributors to help our project become a reality. AFI has provided us with a $13,000 grant and our goal is $65,000.  To begin production, we must meet our fundraising goal by October 1st, 2013.  Your support of FEARLESS is an investment in our futures as&nbsp;filmmakers.</p>
 			<p>All contributions $10,000 and up will be awarded Executive Producer in the end&nbsp;credits.</p>
 			<p><strong>Donations may be tax deductible.<strong> As a non-profit educational institution, AFI holds a tax-exempt status. Donations toward the making of the film may be tax deductible under Section 170 of the US tax code. All contributions will receive a letter of acknowledgment from the American Film Institute that can be used for tax&nbsp;purposes.</p>
@@ -94,6 +100,7 @@
 			<h4>CONTACT</h4>
 			<p>Dawn DeVoe, Producer, 917 623 0066, <a href="mailto:dawndeVoe@fearlessthefilm.com">dawndeVoe@fearlessthefilm.com</a></p>
 		</div>
+		<div class="separator-bg sky1"></div>
 	</section>
 
 	<section id="cast" class="main">
@@ -101,6 +108,7 @@
 			<h3>Cast</h3>
 			<p>Casting starts in September 2013 and will be locked by November. Come back then!</p>
 		</div>
+		<div class="separator-bg sky2"></div>
 	</section>
 
 	<section id="afi" class="main">
@@ -113,7 +121,7 @@
 			<p>President Lyndon B. Johnson<br>September 29, 1965</p>
 			<p>Consistently regarded as one of the top film schools in the world, the American Film Institute Conservatory has been training award-winning filmmakers since its establishment in 1969. As part of the American Film Institute's dedication to preserving and expanding America's film heritage, the Conservatory's Masters of Fine Arts program is highly selective and provides a unique hands-on approach that provides students an opportunity to produce more films than any other graduate film program. The two-year Master of Fine Arts program emphasizes narrative visual storytelling and personal expression and culminates with the collaboration of fellows from the six disciplines — Cinematography, Directing, Editing, Producing, Production Design and Screenwriting — on a thesis film produced in a professional-style environment.</p>
 			<p>AFI thesis films have garnered numerous prestigious awards, including several Oscar nominations, the Oscar for best narrative short, the Student Oscar, the Director's Guild of America Awards, several American Society of Cinematography Awards, and top honors from the American Cinema Editors.</p>
-			<p>Traditionally AFI thesis films are instrumental in launching its fellows' careers in film.</p>
+			<p>Traditionally AFI thesis films are instrumental in launching its fellows' careers in film. Visit <a href="http://afi.com" target="_blank">www.afi.com</a> for more information.</p>
 			<div class="alumni">
 				<h4>Notable Alumni</h4>
 				<ul class="alumni-list">
@@ -234,30 +242,45 @@
 					</li>
 				</ul>
 			</div>
-			<p>Visit <a href="http://afi.com" target="_blank">www.afi.com</a></p>
 		</div>
 	</section>
 
-	<section id="contact" class="main">
+	<footer id="contact">
 		<div class="page-inner wrapper">
-			<h3>Contact</h3>
-			<ul>
-				<li>Dawn DeVoe, Producer</li>
-				<li><a href="tel:9176230066">917 623 0066</a></li>
-				<li><a href="mailto:dawndevoe@fearlessthefilm.com">dawndeVoe@fearlessthefilm.com</a></li>
-			</ul>
+			<span class="footer-logo">Fearless</span>
+			<div class="footer-contact">
+				<h4>Contact</h4>
+				<ul>
+					<li>Dawn DeVoe, Producer</li>
+					<li><a href="tel:9176230066">917 623 0066</a></li>
+					<li><a href="mailto:dawndevoe@fearlessthefilm.com">dawndeVoe@fearlessthefilm.com</a></li>
+				</ul>
+			</div>
 
-			<ul>
-				<li>Fearless</li>
-				<li>c/o American Film Institute</li>
-				<li>2021 North Western Avenue</li>
-				<li>Los Angeles, CA 90027</li>
-			</ul>
+			<div class="footer-address">
+				<h4>Address</h4>
+				<ul>
+					<li>Fearless</li>
+					<li>c/o American Film Institute</li>
+					<li>2021 North Western Avenue</li>
+					<li>Los Angeles, CA, 90027</li>
+				</ul>
+			</div>
+
+			<div class="footer-buttons">
+				<ul>
+					<li><a href="" class="button">Facebook</a></li>
+					<li><a href="" class="button">Donate</a></li>
+				</ul>
+			</div>
 		</div>
-	</section>
+	</footer>
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 	<script src="js/jquery.fittext.js"></script>
+	<script src="js/jquery.throttle.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.plusanchor.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

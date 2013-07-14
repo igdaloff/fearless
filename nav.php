@@ -1,7 +1,7 @@
 <nav class="main-nav">
 	<ul>
 		<li>
-			<a href="/" class="button-slide-in">
+			<a href="#home" class="button-slide-in">
 	        <div>Home</div>
 	        <div></div>
 	        <div>Home</div>
@@ -33,13 +33,6 @@
         <div>AFI</div>
         <div></div>
         <div>AFI</div>
-			</a>
-		</li>
-		<li>
-			<a href="#contact" class="button-slide-in">
-        <div>Contact</div>
-        <div></div>
-        <div>Contact</div>
 			</a>
 		</li>
 		<li><a class="button donate-button" href="#donate">Donate</a></li>
