@@ -12,10 +12,10 @@
 	<!-- Typekit -->
 	<script type="text/javascript" src="//use.typekit.net/ulr6pgd.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 </head>
 
 <body>
-
 	<div id="home" class="main">
 		<?php include 'nav.php'; ?>
 
@@ -23,15 +23,26 @@
 			<h2>American Film Institute Presents</h2>
 			<h1>FEARLESS</h1>
 		</header>
-
+		<div class="separator-bg cracks"></div>
 	</div>
 
 	<section id="story" class="main">
 		<div class="page-inner wrapper">
-			<h3>The Story</h3>
-			<p>Glider pilot Grace Collins finds her world turned upside-down when Jericho Rhodes, her ex-fiancé, wills her his cryo-preserved sperm following his death while fighting in Afghanistan. Recently engaged to adventure writer Vaughn Clover, Grace finds herself torn between a bright future and forgotten passions. Confronted with the dilemma of a lifetime, Grace must decide what she values most.</p>
+			<div class="story-inner">
+				<h3>The Story</h3>
+				<p>Glider pilot Grace Collins finds her world turned upside-down when Jericho Rhodes, her ex-fiancé, wills her his cryo-preserved sperm following his death while fighting in Afghanistan. Recently engaged to adventure writer Vaughn Clover, Grace finds herself torn between a bright future and forgotten passions. Confronted with the dilemma of a lifetime, Grace must decide what she values most.</p>
+			</div>
+			<h4>Director's Statement</h4>
+			<p>As human beings, we always carry our history with us. Memories can be our most precious treasures or a burden that is overwhelmingly heavy to carry – or both. Most of our memories are about other human beings. To our main character Grace, the most hidden and protected memories are about the greatest love and the greatest sorrow of her life – an ex-fiancé and a special forces soldier named Jericho.</p>
+			<p>Our story takes place in wartime America, the present day America, where Grace's life is affected by Jericho’s unexpected death. She must now make choices concerning her career, her love, and her desire for children.</p>
+			<p>Life is full of choices, and we make decisions on a daily basis. Some decisions are small, some are life-changing. Many times, big decisions need a lot of courage. I personally believe that since we only have one life, we should always live fully and honestly to ourselves and to other people. We must have the courage to follow our hearts and to do the right thing. This is the ultimate battle, not some war in a distant country.</p>
+			<ul>
+				<li>Risto Tuominen</li>
+				<li>Los Angeles</li>
+				<li>July 11, 2013</li>
+			</ul>
 		</div>
-		<div class="separator-bg sky1"></div>
+		<div class="separator-bg cracks"></div>
 	</section>
 
 
@@ -44,7 +55,7 @@
 					<div class="bio-text">
 						<h4><span>Risto Tuominen</span>&nbsp; Director / Writer</h4>
 						<p>Risto Tuominen is a Finnish-born filmmaker who studies directing at the American Film Institute. Before relocating to Los Angeles he spent several years in the Finland’s film industry, working mostly as a production manager and an assistant director for more than 20 feature films and 50 commercial film productions. Risto has also served three years in the Finnish Defence Forces. In 2008, he took part in the peacekeeping operation in Afghanistan.</p>
-						<p><a href="http://ristotuominen.com">Director's Vision Statement</a></p>
+						<p><a href="http://ristotuominen.com" target="_blank">Visit the Director's Site</a></p>
 					</div>
 				</li>
 				<li>
@@ -70,37 +81,7 @@
 				</li>
 			</ul>
 		</div>
-		<div class="separator-bg sky2"></div>
-	</section>
-
-	<section id="donate" class="main">
-		<div class="page-inner wrapper">
-			<h3>Contribute to the Film</h3>
-			<a class="button" href="">Click Here to Donate</a>
-			<p>FEARLESS is a thesis film for Master of Fine Arts degree for directing fellow Risto Tuominen, producing fellow Dawn DeVoe, cinematography fellow Edward Wu and editing fellow John&nbsp;Carner.</p>
-			<div class="team-photo-wrapper">
-				<img src="images/donate/team.jpg" alt="Fearless Team Photo" />
-			</div>
-			<p>As students and independent filmmakers, we depend on the generosity of our relatives, friends, and other third party contributors to help our project become a reality. AFI has provided us with a $13,000 grant and our goal is $65,000.  To begin production, we must meet our fundraising goal by October 1st, 2013.  Your support of FEARLESS is an investment in our futures as&nbsp;filmmakers.</p>
-			<p>All contributions $10,000 and up will be awarded Executive Producer in the end&nbsp;credits.</p>
-			<p><strong>Donations may be tax deductible.<strong> As a non-profit educational institution, AFI holds a tax-exempt status. Donations toward the making of the film may be tax deductible under Section 170 of the US tax code. All contributions will receive a letter of acknowledgment from the American Film Institute that can be used for tax&nbsp;purposes.</p>
-			<h4>MATCHING GRANTS</h4>
-			<p>Many companies match donations made by their employees to non-profit charitable institutions. Please check with your Human Resources Department to see if your company offers this benefit. You can do so by clicking on "My company will match my gift" on the donation page. <a href="">Click here</a> to see a list of companies that will match employee&nbsp;donations.</p>
-			<h4>DONATE BY CHECK</h4>
-			<p>Make checks payable to: American Film Institute (AFI) (Please note "FEARLESS" in the&nbsp;memo)</p>
-			<h5>Mailing Address:</h5>
-			<ul>
-				<li>FEARLESS</li>
-				<li>c/o American Film Institute</li>
-				<li>2021 North Western Avenue</li>
-				<li>Los Angeles, CA 90027</li>
-			</ul>
-			<h4>MAKE AN IN-KIND DONATION</h4>
-			<p>Any in-kind service donations including: film stock, soundstage rental, equipment (camera, grip, lighting), locations, catering (food and beverage), construction supplies, art department supplies (props, set dressing), post production services (visual effects, digital effects, lab work or coloring), or any other contribution will be gladly accepted and mention of donors will be published in the credits, depending on the&nbsp;donation.</p>
-			<h4>CONTACT</h4>
-			<p>Dawn DeVoe, Producer, 917 623 0066, <a href="mailto:dawndeVoe@fearlessthefilm.com">dawndeVoe@fearlessthefilm.com</a></p>
-		</div>
-		<div class="separator-bg sky1"></div>
+		<div class="separator-bg cracks"></div>
 	</section>
 
 	<section id="cast" class="main">
@@ -108,7 +89,7 @@
 			<h3>Cast</h3>
 			<p>Casting starts in September 2013 and will be locked by November. Come back then!</p>
 		</div>
-		<div class="separator-bg sky2"></div>
+		<div class="separator-bg cracks"></div>
 	</section>
 
 	<section id="afi" class="main">
@@ -166,8 +147,6 @@
 						<span class="class-of">&mdash; AFI Class of 1976 &mdash;</span>
 						<span class="films">INTO THE WILD, SILVER LININGS PLAYBOOK</span>
 					</li>
-
-	<!-- 			No headshots FOR THE BELOW PEPOLE:  JUST LIST OUT. -->
 
 					<li>
 						<h5><span>Jonathan Alberts</span>&nbsp; Editor</h5>
@@ -243,6 +222,45 @@
 				</ul>
 			</div>
 		</div>
+		<div class="separator-bg cracks"></div>
+	</section>
+
+	<section id="trailer" class="main">
+		<div class="page-inner wrapper">
+			<h3>Trailer</h3>
+			<p>We shoot in December 2013.  Trailer ready in the New Year!</p>
+		</div>
+		<div class="separator-bg cracks"></div>
+	</section>
+
+	<section id="donate" class="main">
+		<div class="page-inner wrapper">
+			<h3>Contribute to the Film</h3>
+			<a class="button" href="">Click Here to Donate</a>
+			<p>FEARLESS is a thesis film for Master of Fine Arts degree for directing fellow Risto Tuominen, producing fellow Dawn DeVoe, cinematography fellow Edward Wu and editing fellow John&nbsp;Carner.</p>
+			<div class="team-photo-wrapper">
+				<img src="images/donate/team.jpg" alt="Fearless Team Photo" />
+			</div>
+			<p>As students and independent filmmakers, we depend on the generosity of our relatives, friends, and other third party contributors to help our project become a reality. AFI has provided us with a $13,000 grant and our goal is $65,000.  To begin production, we must meet our fundraising goal by October 1st, 2013.  Your support of FEARLESS is an investment in our futures as&nbsp;filmmakers.</p>
+			<p>All contributions $10,000 and up will be awarded Executive Producer in the end&nbsp;credits.</p>
+			<p><strong>Donations may be tax deductible.</strong> As a non-profit educational institution, AFI holds a tax-exempt status. Donations toward the making of the film may be tax deductible under Section 170 of the US tax code. All contributions will receive a letter of acknowledgment from the American Film Institute that can be used for tax&nbsp;purposes.</p>
+			<h4>MATCHING GRANTS</h4>
+			<p>Many companies match donations made by their employees to non-profit charitable institutions. Please check with your Human Resources Department to see if your company offers this benefit. You can do so by clicking on "My company will match my gift" on the donation page. <a href="">Click here</a> to see a list of companies that will match employee&nbsp;donations.</p>
+			<h4>DONATE BY CHECK</h4>
+			<p>Make checks payable to: American Film Institute (AFI) (Please note "FEARLESS" in the&nbsp;memo)</p>
+			<h5>Mailing Address:</h5>
+			<ul>
+				<li>FEARLESS</li>
+				<li>c/o American Film Institute</li>
+				<li>2021 North Western Avenue</li>
+				<li>Los Angeles, CA 90027</li>
+			</ul>
+			<h4>MAKE AN IN-KIND DONATION</h4>
+			<p>Any in-kind service donations including: film stock, soundstage rental, equipment (camera, grip, lighting), locations, catering (food and beverage), construction supplies, art department supplies (props, set dressing), post production services (visual effects, digital effects, lab work or coloring), or any other contribution will be gladly accepted and mention of donors will be published in the credits, depending on the&nbsp;donation.</p>
+			<h4>CONTACT</h4>
+			<p>Dawn DeVoe, Producer, 917 623 0066, <a href="mailto:dawndeVoe@fearlessthefilm.com">dawndeVoe@fearlessthefilm.com</a></p>
+		</div>
+		<div class="separator-bg sky"></div>
 	</section>
 
 	<footer id="contact">
@@ -270,14 +288,13 @@
 			<div class="footer-buttons">
 				<ul>
 					<li><a href="" class="button">Facebook</a></li>
-					<li><a href="" class="button">Donate</a></li>
+					<li><a href="#donate" class="button">Donate</a></li>
 				</ul>
 			</div>
 		</div>
 	</footer>
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-	<script src="js/jquery.fittext.js"></script>
 	<script src="js/jquery.throttle.min.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/jquery.plusanchor.js"></script>

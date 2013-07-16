@@ -2,7 +2,6 @@
 
 	//SET #HOME HEIGHT TO WINDOW HEIGHT
 	var windowHeight = $(window).height();
-
 	$('#home').css('height',windowHeight);
 
 	//FADE IN HOME TEXT
@@ -26,7 +25,6 @@
     });
 
 	//SMOOTH SCROLLTO SECTIONS
-		//SMOOTH ANCHOR SCROLLING
 	jQuery(document).ready(function($){
 		$('body').plusAnchor({
 			easing: 'easeInOutExpo',
@@ -54,23 +52,19 @@
 	});
 
 	//FLUID HEADERS
+/*
 	jQuery("header h1").fitText(0.75);
 	jQuery("header h2").fitText(5);
+*/
 
 	//HOME PAGE PARALAX
 	function homeScroll() {
 		var $scrollTop = $(window).scrollTop();
 		var $homeContainer = $('#home');
-
-		if ( $(window).scrollTop() < $homeContainer.height() ) {
 			$homeContainer.css({
 				'top': Math.round(($scrollTop / 2))
 			});
-		} else {
-			$homeContainer.css({
-				'top': 0
-			});
-		}
+
 	}
 
 	$(window).scroll( $.throttle( 10, homeScroll ) );

@@ -1,7 +1,7 @@
 <nav class="main-nav">
 	<ul>
 		<li>
-			<a href="#home" class="button-slide-in">
+			<a href="/" class="button-slide-in">
 	        <div>Home</div>
 	        <div></div>
 	        <div>Home</div>
@@ -19,6 +19,13 @@
         <div>Filmmakers</div>
         <div></div>
         <div>Filmmakers</div>
+			</a>
+		</li>
+		<li>
+			<a href="#trailer" class="button-slide-in">
+        <div>Trailer</div>
+        <div></div>
+        <div>Trailer</div>
 			</a>
 		</li>
 		<li>

@@ -175,17 +175,16 @@ FORM ELEMENTS
 GENERAL LAYOUT
 -------------------------------------------------------------------------*/
 .wrapper{
-	width: 60%;
+	width: 1000px;
 	margin: 0 auto;
 	position: relative;
-	max-width:1200px;
 }
 
 section{
 	position: relative;
 	padding: 4em 0;
-	margin-bottom: 6em;
-	.box-shadow(5px -5px 50px 0px fadeout(@black, 70%), 5px 5px 50px 0px fadeout(@black, 70%));
+	margin-bottom: 8em;
+	.box-shadow(5px -5px 50px 0px fadeout(@black, 10%), 5px 5px 50px 0px fadeout(@black, 10%));
 
 }
 
@@ -214,6 +213,18 @@ section{
 	}
 }
 
+.cracks{
+	background: url(../images/separator-cracks.jpg);
+}
+
+.sky{
+	background: url(../images/separator-sky.jpg);
+}
+
+.water{
+	background: url(../images/separator-water.jpg);
+}
+
 .separator-bg{
 	position: absolute;
 	height: 100%;
@@ -222,24 +233,19 @@ section{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding-bottom: 6em;
+	padding-bottom: 8em;
 	z-index: -5;
-}
-
-.sky1{
-	background: url(../images/separator1-bg.jpg) fixed top no-repeat;
-}
-
-.sky2{
-	background: url(../images/main-bg.jpg) fixed top no-repeat;
+	background-attachment: fixed;
 }
 
 /*-------------------------------------------------------------------------
 HOME
 -------------------------------------------------------------------------*/
 #home{
+	height: 800px;
 	position: relative;
-	background: url(../images/main-bg.jpg) no-repeat bottom;
+	background: url(../images/main-bg.jpg) bottom;
+	.box-shadow(5px 5px 50px 0px fadeout(@black, 10%));
 }
 
 .main{
@@ -419,12 +425,13 @@ NAV
 MINIMAL CONTENT SECTIONS
 -------------------------------------------------------------------------*/
 #story{
-	background: @white;
-
+	margin-top: 16em;
+	background: url(../images/story/story-bg.jpg) bottom no-repeat;
+	background-size: cover;
 
 	h3{
 		border: none;
-		.box-shadow(0);
+		.box-shadow(0 0 0 transparent);
 		padding: 0;
 		margin-bottom: 0.1em;
 	}
@@ -436,21 +443,61 @@ MINIMAL CONTENT SECTIONS
 		.box-shadow(0 1px 0 0 @black, 0 -1px 0 0 @black);
 	}
 
-	p, h3{
+	p, h3, h4, ul{
 		text-align: center;
+	}
+
+	p{
+		padding: 0 10%;
 	}
 }
 
 #cast{
+	padding: 6em 0 24em;
+	text-align: center;
+	color: @black;
+	background: url(../images/cast/cast-bg.jpg) bottom no-repeat;
+	background-size: cover;
+
+	h3{
+		border-bottom: 4px double @black;
+		.box-shadow(0 1px 0 0 @black);
+	}
+
+	p{
+		font-size: 1.4em;
+		text-align: center;
+	}
+}
+
+#trailer{
+	padding: 6em 0 36em;
 	background: @darkblue;
 	color: @white;
+	text-align: center;
+	background: url(../images/trailer/trailer-bg.jpg) top no-repeat;
+	background-size: cover;
+
+	p{
+		font-size: 1.4em;
+		text-align: center;
+	}
+}
+
+.story-inner{
+	padding-bottom: 3em;
+	margin-bottom: 3em;
+	border-bottom: 1px solid @black;
 }
 
 /*-------------------------------------------------------------------------
 DONATE
 -------------------------------------------------------------------------*/
 #donate{
+	margin-bottom: 0;
+	.box-shadow(0 0 0 transparent);
 	background: @white;
+	border-bottom: 1px solid @black;
 
 	h3{
 		border-bottom-color: @black;
@@ -481,15 +528,8 @@ DONATE
 CONTACT / FOOTER
 -------------------------------------------------------------------------*/
 #contact{
-	position: absolute;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	height: 6em;
-	padding: 1em 0;
-	.box-sizing;
+	padding: 1.5em 0 0;
 	.box-shadow(0 0 0 transparent);
-	.clearfix;
 
 	h3{
 		border-bottom-color: @black;
@@ -547,19 +587,25 @@ CONTACT / FOOTER
 @import 'afi.less';
 
 @media screen and (min-width: 37.5em) { /*600px*/
+/*
 	body{
 		font-size: 90%;
 	}
+*/
 }
 
 @media screen and (min-width: 50em) { /*800px*/
+/*
 	body{
 		font-size: 100%;
 	}
+*/
 }
 
 @media screen and (min-width: 62.5em) { /*1000px*/
+/*
 	body{
 		font-size: 110%;
 	}
+*/
 }

@@ -218,18 +218,17 @@ FORM ELEMENTS
 GENERAL LAYOUT
 -------------------------------------------------------------------------*/
 .wrapper {
-  width: 60%;
+  width: 1000px;
   margin: 0 auto;
   position: relative;
-  max-width: 1200px;
 }
 section {
   position: relative;
   padding: 4em 0;
-  margin-bottom: 6em;
-  -moz-box-shadow: 5px -5px 50px 0px rgba(59, 60, 64, 0.30000000000000004), 5px 5px 50px 0px rgba(59, 60, 64, 0.30000000000000004), transparent 0 0 0 0, transparent 0 0 0;
-  -webkit-box-shadow: 5px -5px 50px 0px rgba(59, 60, 64, 0.30000000000000004), 5px 5px 50px 0px rgba(59, 60, 64, 0.30000000000000004), transparent 0 0 0 0, transparent 0 0 0;
-  box-shadow: 5px -5px 50px 0px rgba(59, 60, 64, 0.30000000000000004), 5px 5px 50px 0px rgba(59, 60, 64, 0.30000000000000004), transparent 0 0 0 0, transparent 0 0 0;
+  margin-bottom: 8em;
+  -moz-box-shadow: 5px -5px 50px 0px rgba(59, 60, 64, 0.9), 5px 5px 50px 0px rgba(59, 60, 64, 0.9), transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 5px -5px 50px 0px rgba(59, 60, 64, 0.9), 5px 5px 50px 0px rgba(59, 60, 64, 0.9), transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 5px -5px 50px 0px rgba(59, 60, 64, 0.9), 5px 5px 50px 0px rgba(59, 60, 64, 0.9), transparent 0 0 0 0, transparent 0 0 0;
 }
 .page-inner p {
   text-align: justify;
@@ -251,6 +250,15 @@ section {
 .page-inner ul {
   margin-bottom: 1em;
 }
+.cracks {
+  background: url(../images/separator-cracks.jpg);
+}
+.sky {
+  background: url(../images/separator-sky.jpg);
+}
+.water {
+  background: url(../images/separator-water.jpg);
+}
 .separator-bg {
   position: absolute;
   height: 100%;
@@ -259,21 +267,20 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  padding-bottom: 6em;
+  padding-bottom: 8em;
   z-index: -5;
-}
-.sky1 {
-  background: url(../images/separator1-bg.jpg) fixed top no-repeat;
-}
-.sky2 {
-  background: url(../images/main-bg.jpg) fixed top no-repeat;
+  background-attachment: fixed;
 }
 /*-------------------------------------------------------------------------
 HOME
 -------------------------------------------------------------------------*/
 #home {
+  height: 800px;
   position: relative;
-  background: url(../images/main-bg.jpg) no-repeat bottom;
+  background: url(../images/main-bg.jpg) bottom;
+  -moz-box-shadow: 5px 5px 50px 0px rgba(59, 60, 64, 0.9), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 5px 5px 50px 0px rgba(59, 60, 64, 0.9), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 5px 5px 50px 0px rgba(59, 60, 64, 0.9), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
 }
 .main header {
   display: none;
@@ -434,13 +441,15 @@ NAV
 MINIMAL CONTENT SECTIONS
 -------------------------------------------------------------------------*/
 #story {
-  background: #f2efe4;
+  margin-top: 16em;
+  background: url(../images/story/story-bg.jpg) bottom no-repeat;
+  background-size: cover;
 }
 #story h3 {
   border: none;
-  -moz-box-shadow: 0, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  -webkit-box-shadow: 0, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  box-shadow: 0, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -moz-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   padding: 0;
   margin-bottom: 0.1em;
 }
@@ -453,18 +462,58 @@ MINIMAL CONTENT SECTIONS
   box-shadow: 0 1px 0 0 #3b3c40, 0 -1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0;
 }
 #story p,
-#story h3 {
+#story h3,
+#story h4,
+#story ul {
   text-align: center;
 }
+#story p {
+  padding: 0 10%;
+}
 #cast {
+  padding: 6em 0 24em;
+  text-align: center;
+  color: #3b3c40;
+  background: url(../images/cast/cast-bg.jpg) bottom no-repeat;
+  background-size: cover;
+}
+#cast h3 {
+  border-bottom: 4px double #3b3c40;
+  -moz-box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+}
+#cast p {
+  font-size: 1.4em;
+  text-align: center;
+}
+#trailer {
+  padding: 6em 0 36em;
   background: #69788c;
   color: #f2efe4;
+  text-align: center;
+  background: url(../images/trailer/trailer-bg.jpg) top no-repeat;
+  background-size: cover;
+}
+#trailer p {
+  font-size: 1.4em;
+  text-align: center;
+}
+.story-inner {
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+  border-bottom: 1px solid #3b3c40;
 }
 /*-------------------------------------------------------------------------
 DONATE
 -------------------------------------------------------------------------*/
 #donate {
+  margin-bottom: 0;
+  -moz-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   background: #f2efe4;
+  border-bottom: 1px solid #3b3c40;
 }
 #donate h3 {
   border-bottom-color: #3b3c40;
@@ -492,27 +541,10 @@ DONATE
 CONTACT / FOOTER
 -------------------------------------------------------------------------*/
 #contact {
-  position: absolute;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  height: 6em;
-  padding: 1em 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  padding: 1.5em 0 0;
   -moz-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   -webkit-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  *zoom: 1;
-}
-#contact:before,
-#contact:after {
-  content: "";
-  display: table;
-}
-#contact:after {
-  clear: both;
 }
 #contact h3 {
   border-bottom-color: #3b3c40;
@@ -579,6 +611,19 @@ CONTACT / FOOTER
 }
 .filmmakers-list {
   *zoom: 1;
+  /*
+	img{
+		width: 100%;
+		border-radius: 1px;
+	}
+
+	.bio-text{
+		width: 100%;
+		margin-top: 1.5em;
+		font-size: 0.9em;
+	}
+*/
+
 }
 .filmmakers-list:before,
 .filmmakers-list:after {
@@ -602,13 +647,12 @@ CONTACT / FOOTER
   float: left;
 }
 .filmmakers-list img {
-  width: 100%;
-  border-radius: 1px;
+  margin-right: 2.5%;
+  width: 48.75%;
 }
 .filmmakers-list .bio-text {
-  width: 100%;
-  margin-top: 1.5em;
-  font-size: 0.9em;
+  width: 48.75%;
+  margin: 0;
 }
 .filmmakers-list span {
   color: #3b3c40;
@@ -619,22 +663,25 @@ CONTACT / FOOTER
 }
 @media screen and (min-width: 62.5em) {
   /*1000px*/
-  .filmmakers-list img {
-    margin-right: 2.5%;
-    width: 48.75%;
-  }
-  .filmmakers-list .bio-text {
-    width: 48.75%;
-    margin: 0;
-  }
+  /*
+  
+  	.filmmakers-list{
+  
+  		img{
+  			margin-right: 2.5%;
+  			width: 48.75%;
+  		}
+  
+  		.bio-text{
+  			width: 48.75%;
+  			margin: 0;
+  		}
+  	}
+  */
 }
 #afi {
   background: #778ba6;
   color: #f2efe4;
-  margin: 0;
-  -moz-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  -webkit-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
 }
 #afi h3 {
   border-bottom-color: #f2efe4;
@@ -644,7 +691,7 @@ CONTACT / FOOTER
 }
 .main-afi-image {
   float: right;
-  margin: 2.5% 0 1% 2.5%;
+  margin: 0 0 0.5em 2.5%;
 }
 .alumni {
   margin: 2em 0 0;
@@ -656,6 +703,8 @@ CONTACT / FOOTER
   padding: 1em 0 0 1em;
 }
 .alumni-list li {
+  float: left;
+  width: 33.333333%;
   padding: 2em 1em 2em 0;
   border-top: 1px solid #f2efe4;
   text-align: center;
@@ -682,34 +731,44 @@ CONTACT / FOOTER
 .class-of {
   margin-bottom: 0.5em;
 }
+/*
 @media screen and (min-width: 50em) {
-  /*800px*/
-  .alumni-list li {
-    float: left;
-    width: 50%;
-  }
+
+	.alumni-list li{
+		float: left;
+		width: 50%;
+	}
+
 }
+
 @media screen and (min-width: 62.5em) {
-  /*1000px*/
-  .alumni-list li {
-    width: 33.333333%;
-  }
+
+	.alumni-list li{
+		width: 33.333333%;
+	}
+
 }
-@media screen and (min-width: 37.5em) {
+*/@media screen and (min-width: 37.5em) {
   /*600px*/
-  body {
-    font-size: 90%;
-  }
+  /*
+  	body{
+  		font-size: 90%;
+  	}
+  */
 }
 @media screen and (min-width: 50em) {
   /*800px*/
-  body {
-    font-size: 100%;
-  }
+  /*
+  	body{
+  		font-size: 100%;
+  	}
+  */
 }
 @media screen and (min-width: 62.5em) {
   /*1000px*/
-  body {
-    font-size: 110%;
-  }
+  /*
+  	body{
+  		font-size: 110%;
+  	}
+  */
 }
