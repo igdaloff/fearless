@@ -27,9 +27,9 @@
 	//SMOOTH SCROLLTO SECTIONS
 	jQuery(document).ready(function($){
 		$('body').plusAnchor({
-			easing: 'easeInOutExpo',
+			easing: 'easeInOutQuad',
 			offsetTop: -20,
-			speed: 2000,
+			speed: 1200,
 			onInit: function( base ) {
 
 				if ( base.initHash != '' && $(base.initHash).length > 0 ) {
@@ -51,23 +51,24 @@
 		});
 	});
 
-	//FLUID HEADERS
-/*
-	jQuery("header h1").fitText(0.75);
-	jQuery("header h2").fitText(5);
-*/
 
 	//HOME PAGE PARALAX
-	function homeScroll() {
-		var $scrollTop = $(window).scrollTop();
-		var $homeContainer = $('#home');
-			$homeContainer.css({
-				'top': Math.round(($scrollTop / 2))
-			});
+	if ( $(window).width() > 400 ) {
 
+		//FLUID HEADERS
+		jQuery("header h1").fitText(0.75);
+		jQuery("header h2").fitText(5);
+
+		function homeScroll() {
+			var $scrollTop = $(window).scrollTop();
+			var $homeContainer = $('#home');
+				$homeContainer.css({
+					'top': Math.round(($scrollTop / 2))
+				});
+		}
+
+		$(window).scroll( $.throttle( 10, homeScroll ) );
 	}
-
-	$(window).scroll( $.throttle( 10, homeScroll ) );
 
 
 })();

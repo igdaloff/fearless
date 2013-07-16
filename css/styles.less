@@ -113,7 +113,7 @@ TYPOGRAPHY
 h3{
 	padding-bottom: 0.1em;
 	margin-bottom: 0.4em;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 700;
 	width: 100%;
 	text-transform: uppercase;
@@ -175,13 +175,14 @@ FORM ELEMENTS
 GENERAL LAYOUT
 -------------------------------------------------------------------------*/
 .wrapper{
-	width: 1000px;
+	width: 90%;
 	margin: 0 auto;
 	position: relative;
 }
 
 section{
 	position: relative;
+	width: 100%;
 	padding: 4em 0;
 	margin-bottom: 8em;
 	.box-shadow(5px -5px 50px 0px fadeout(@black, 10%), 5px 5px 50px 0px fadeout(@black, 10%));
@@ -226,7 +227,7 @@ section{
 }
 
 .separator-bg{
-	position: absolute;
+	position: fixed;
 	height: 100%;
 	width: 100%;
 	top: 0;
@@ -242,10 +243,15 @@ section{
 HOME
 -------------------------------------------------------------------------*/
 #home{
-	height: 800px;
+	min-height: 200px;
 	position: relative;
 	background: url(../images/main-bg.jpg) bottom;
+	background-size: cover;
 	.box-shadow(5px 5px 50px 0px fadeout(@black, 10%));
+
+	.cracks{
+		padding-bottom: 16em;
+	}
 }
 
 .main{
@@ -266,12 +272,13 @@ h1{
 	font-family: @sans;
 	font-weight: 300;
 	letter-spacing: 0.4em;
-	font-size: 8em;
+	font-size: 2em;
 	margin-left: 0.4em; /*To correct for letter spacing centering issue*/
 }
 
 h2{
 	margin-bottom: 0.5em;
+	font-size: 0.5em;
 	font-family: @sans;
 	font-weight: 500;
 	letter-spacing: 0.4em;
@@ -425,7 +432,7 @@ NAV
 MINIMAL CONTENT SECTIONS
 -------------------------------------------------------------------------*/
 #story{
-	margin-top: 16em;
+	margin-top: 0;
 	background: url(../images/story/story-bg.jpg) bottom no-repeat;
 	background-size: cover;
 
@@ -541,10 +548,8 @@ CONTACT / FOOTER
 	}
 
 	.footer-logo, .footer-contact, .footer-address, .footer-buttons{
-		float: left;
-		width: 25%;
-		padding-right: 5%;
-		.box-sizing;
+		width: 100%;
+		text-align: center;
 	}
 
 	.footer-logo{
@@ -553,14 +558,12 @@ CONTACT / FOOTER
 		font-weight: 300;
 		letter-spacing: 0.4em;
 		line-height: 4;
-		text-align: left;
 		text-transform: uppercase;
 	}
 
 	ul{
 		font-size: 0.8em;
 		line-height: 1.3;
-		text-align: left;
 
 		a{
 			text-decoration: none;
@@ -569,10 +572,6 @@ CONTACT / FOOTER
 
 	.footer-buttons{
 		padding: 0;
-
-		ul{
-			text-align: right;
-		}
 
 		.button{
 			display: inline-block;
@@ -586,26 +585,69 @@ CONTACT / FOOTER
 @import 'filmmakers.less';
 @import 'afi.less';
 
+@media screen and (min-width: 25em) { /*400px*/
+
+	body{
+		font-size: 80%;
+	}
+
+	#home{
+		min-height: 800px;
+	}
+
+	.main{
+		header{
+			top: 40%;
+		}
+	}
+
+	.separator-bg{
+		position: absolute;
+	}
+
+	#story{
+		margin-top: 16em;
+	}
+}
 @media screen and (min-width: 37.5em) { /*600px*/
-/*
 	body{
 		font-size: 90%;
 	}
-*/
+
+	.wrapper{
+		width: 90%;
+	}
+
+	h3{
+		font-size: 3em;
+	}
+
+	#contact{
+
+		.footer-logo, .footer-contact, .footer-address, .footer-buttons{
+			float: left;
+			width: 25%;
+			padding-right: 5%;
+			.box-sizing;
+			text-align: left;
+		}
+
+		.footer-buttons{
+			ul{
+				text-align: right;
+			}
+		}
+	}
 }
 
 @media screen and (min-width: 50em) { /*800px*/
-/*
 	body{
 		font-size: 100%;
 	}
-*/
 }
 
 @media screen and (min-width: 62.5em) { /*1000px*/
-/*
 	body{
 		font-size: 110%;
 	}
-*/
 }
