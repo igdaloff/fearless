@@ -1,4 +1,4 @@
-<nav class="main-nav">
+<nav class="main-nav desktop-nav">
 	<div class="wrapper">
 	<ul>
 		<li>
@@ -51,5 +51,32 @@
 			</a>
 		</li>
 		<li><a class="button donate-button" href="#donate">Donate</a></li>
+	</ul>
+</nav>
+
+<nav class="mobile-nav">
+	<span class="mobile-nav-icon" aria-hidden="true"></span>
+	<ul>
+		<li>
+			<a href="/">Home</a>
+		</li>
+		<li>
+			<a href="#story">Story</a>
+		</li>
+		<li>
+			<a href="#filmmakers">Filmmakers</a>
+		</li>
+		<li>
+			<a href="#cast">Cast</a>
+		</li>
+		<li>
+			<a href="#afi">AFI</a>
+		</li>
+		<li>
+			<a href="#trailer">Trailer</a>
+		</li>
+		<li>
+			<a href="#contact">Contact</a>
+		</li>
 	</ul>
 </nav>

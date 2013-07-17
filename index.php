@@ -33,7 +33,7 @@
 			</div>
 			<h4>Director's Statement</h4>
 			<p>As human beings, we always carry our history with us. Memories can be our most precious treasures or a burden that is overwhelmingly heavy to carry – or both. Most of our memories are about other human beings. To our main character Grace, the most hidden and protected memories are about the greatest love and the greatest sorrow of her life – an ex-fiancé and a special forces soldier named Jericho.</p>
-			<p>Our story takes place in wartime America, the present day America, where Grace's life is affected by Jericho’s unexpected death. She must now make choices concerning her career, her love, and her desire for children.</p>
+			<p>Our story takes place in wartime America, the present day America, where Grace's life is affected by Jericho's unexpected death. She must now make choices concerning her career, her love, and her desire for children.</p>
 			<p>Life is full of choices, and we make decisions on a daily basis. Some decisions are small, some are life-changing. Many times, big decisions need a lot of courage. I personally believe that since we only have one life, we should always live fully and honestly to ourselves and to other people. We must have the courage to follow our hearts and to do the right thing. This is the ultimate battle, not some war in a distant country.</p>
 			<ul>
 				<li>Risto Tuominen</li>
@@ -53,7 +53,7 @@
 					<img src="../images/filmmakers/risto.jpg" alt="Dawn DeVoe image" />
 					<div class="bio-text">
 						<h4><span>Risto Tuominen</span>&nbsp; Director / Writer</h4>
-						<p>Risto Tuominen is a Finnish-born filmmaker who studies directing at the American Film Institute. Before relocating to Los Angeles he spent several years in the Finland’s film industry, working mostly as a production manager and an assistant director for more than 20 feature films and 50 commercial film productions. Risto has also served three years in the Finnish Defence Forces. In 2008, he took part in the peacekeeping operation in Afghanistan.</p>
+						<p>Risto Tuominen is a Finnish-born filmmaker who studies directing at the American Film Institute. Before relocating to Los Angeles he spent several years in the Finland's film industry, working mostly as a production manager and an assistant director for more than 20 feature films and 50 commercial film productions. Risto has also served three years in the Finnish Defence Forces. In 2008, he took part in the peacekeeping operation in Afghanistan.</p>
 						<p><a href="http://ristotuominen.com" target="_blank">Visit the Director's Site</a></p>
 					</div>
 				</li>
@@ -61,14 +61,14 @@
 					<img src="../images/filmmakers/dawn.jpg" alt="Dawn DeVoe image" />
 					<div class="bio-text">
 						<h4><span>Dawn DeVoe</span>&nbsp; Producer / Writer</h4>
-						<p>Dawn DeVoe is an aspiring film producer from New York City. Dawn graduated from St. Michael’s College with a degree in Psychology, minoring in fine arts and traveling abroad to study cultural anthropology in Zimbabwe. Before attending the American Film Institute, Dawn worked at VH1 as a line producer on franchises such as MOB WIVES, I LOVE THE... and 100/40 GREATEST COUNTDOWNS. In 2008, Dawn produced the short film HARDWOOD, which screened at the LA Shorts Fest and Cannes Short Film Corner before being acquired by Sony/Lionsgate.</p>
+						<p>Dawn DeVoe is an aspiring film producer from New York City. Dawn graduated from St. Michael's College with a degree in Psychology, minoring in fine arts and traveling abroad to study cultural anthropology in Zimbabwe. Before attending the American Film Institute, Dawn worked at VH1 as a line producer on franchises such as MOB WIVES, I LOVE THE... and 100/40 GREATEST COUNTDOWNS. In 2008, Dawn produced the short film HARDWOOD, which screened at the LA Shorts Fest and Cannes Short Film Corner before being acquired by Sony/Lionsgate.</p>
 					</div>
 				</li>
 				<li>
 					<img src="../images/filmmakers/wu.jpg" alt="Dawn DeVoe image" />
 					<div class="bio-text">
 						<h4><span>Ed Wu</span>&nbsp; Cinematographer</h4>
-						<p>Ed Wu explores the world through the lens of his camera. An honorary Hoosier from Long Island, NY, Ed transplanted to Los Angeles in search of uncovering and learning the magic behind visual storytelling. Through his experiences as a cinematographer and wanderer of the world, he’s seen the power of an image and constantly searches for the perfect frame to tell the story.  Ed’s body of work ranges from music videos, documentaries, narratives, and commercials for corporate clients such as Wal-Mart, Popular Mechanics, and New Era.  His film SPARKS has received recognition at the Short Film Corner at Cannes International Film Festival and a Best Picture nomination at the CMF International Grand Finale. Additionally, his work on the feature film NATHAN AND THE LUTHIER earned an official acceptance into the Heartland Film Festival and YES Film Festival.</p>
+						<p>Ed Wu explores the world through the lens of his camera. An honorary Hoosier from Long Island, NY, Ed transplanted to Los Angeles in search of uncovering and learning the magic behind visual storytelling. Through his experiences as a cinematographer and wanderer of the world, he's seen the power of an image and constantly searches for the perfect frame to tell the story.  Ed's body of work ranges from music videos, documentaries, narratives, and commercials for corporate clients such as Wal-Mart, Popular Mechanics, and New Era.  His film SPARKS has received recognition at the Short Film Corner at Cannes International Film Festival and a Best Picture nomination at the CMF International Grand Finale. Additionally, his work on the feature film NATHAN AND THE LUTHIER earned an official acceptance into the Heartland Film Festival and YES Film Festival.</p>
 					</div>
 				</li>
 				<li>
@@ -94,9 +94,9 @@
 	<section id="afi" class="main">
 		<div class="page-inner wrapper">
 			<h3>About the AFI Conservatory</h3>
-			<p>"Art is a nation’s most precious heritage.</p>
+			<p>"Art is a nation's most precious heritage.</p>
 			<p>For it is in our works of art that we reveal to ourselves, and to others, the inner vision which guides us as a nation, and where there is no vision, the people perish.</p>
-			<p>We will create an American film institute, bringing together leading artists of the film industry, outstanding educators and young men and women who wish to pursue the 20th century art form as their life’s work."</p>
+			<p>We will create an american film institute, bringing together leading artists of the film industry, outstanding educators and young men and women who wish to pursue the 20th century art form as their life's work."</p>
 			<img class="main-afi-image" src="images/afi/afi-wb-building.jpg" alt="AFI Warner Brother's Building" />
 			<p>President Lyndon B. Johnson<br>September 29, 1965</p>
 			<p>Consistently regarded as one of the top film schools in the world, the American Film Institute Conservatory has been training award-winning filmmakers since its establishment in 1969. As part of the American Film Institute's dedication to preserving and expanding America's film heritage, the Conservatory's Masters of Fine Arts program is highly selective and provides a unique hands-on approach that provides students an opportunity to produce more films than any other graduate film program. The two-year Master of Fine Arts program emphasizes narrative visual storytelling and personal expression and culminates with the collaboration of fellows from the six disciplines — Cinematography, Directing, Editing, Producing, Production Design and Screenwriting — on a thesis film produced in a professional-style environment.</p>
@@ -222,7 +222,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="separator-bg cracks"></div>
+		<div class="separator-bg water"></div>
 	</section>
 
 	<section id="trailer" class="main">
@@ -230,7 +230,7 @@
 			<h3>Trailer</h3>
 			<p>We shoot in December 2013.  Trailer ready in the New Year!</p>
 		</div>
-		<div class="separator-bg cracks"></div>
+		<div class="separator-bg water"></div>
 	</section>
 
 	<section id="donate" class="main">

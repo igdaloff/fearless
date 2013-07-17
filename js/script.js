@@ -29,7 +29,7 @@
 		$('body').plusAnchor({
 			easing: 'easeInOutQuad',
 			offsetTop: -20,
-			speed: 1200,
+			speed: 400,
 			onInit: function( base ) {
 
 				if ( base.initHash != '' && $(base.initHash).length > 0 ) {
@@ -52,13 +52,14 @@
 	});
 
 
-	//HOME PAGE PARALAX
 	if ( $(window).width() > 400 ) {
 
 		//FLUID HEADERS
 		jQuery("header h1").fitText(0.75);
 		jQuery("header h2").fitText(5);
 
+		//HOME PAGE PARALAX
+/*
 		function homeScroll() {
 			var $scrollTop = $(window).scrollTop();
 			var $homeContainer = $('#home');
@@ -68,7 +69,15 @@
 		}
 
 		$(window).scroll( $.throttle( 10, homeScroll ) );
+*/
 	}
+
+	//SHOW MOBILE NAV
+	$('.mobile-nav-icon').on('click', function(){
+		$('.mobile-nav').toggleClass('mobile-nav-active');
+		$(this).toggleClass('mobile-nav-icon-active');
+	});
+
 
 
 })();
