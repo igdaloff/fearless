@@ -5,49 +5,49 @@
 			<a href="/" class="button-slide-in">
 	        <div>Home</div>
 	        <div></div>
-	        <div>Home</div>
+	        <div class="reveal-slide">Home</div>
 			</a>
 		</li>
 		<li>
 			<a href="#story" class="button-slide-in">
         <div>Story</div>
         <div></div>
-        <div>Story</div>
+        <div class="reveal-slide">Story</div>
 			</a>
 		</li>
 		<li>
 			<a href="#filmmakers" class="button-slide-in">
         <div>Filmmakers</div>
         <div></div>
-        <div>Filmmakers</div>
+        <div class="reveal-slide">Filmmakers</div>
 			</a>
 		</li>
 		<li>
 			<a href="#cast" class="button-slide-in">
         <div>Cast</div>
         <div></div>
-        <div>Cast</div>
+        <div class="reveal-slide">Cast</div>
 			</a>
 		</li>
 		<li>
 			<a href="#afi" class="button-slide-in">
         <div>AFI</div>
         <div></div>
-        <div>AFI</div>
+        <div class="reveal-slide">AFI</div>
 			</a>
 		</li>
 		<li>
 			<a href="#trailer" class="button-slide-in">
         <div>Trailer</div>
         <div></div>
-        <div>Trailer</div>
+        <div class="reveal-slide">Trailer</div>
 			</a>
 		</li>
 		<li>
 			<a href="#contact" class="button-slide-in">
         <div>Contact</div>
         <div></div>
-        <div>Contact</div>
+        <div class="reveal-slide">Contact</div>
 			</a>
 		</li>
 		<li><a class="button donate-button" href="#donate">Donate</a></li>

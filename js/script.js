@@ -5,7 +5,7 @@
 	$('#home').css('height',windowHeight);
 
 	//FADE IN HOME TEXT
-	$('header').fadeIn('slow');
+	$('header').fadeIn(2500);
 
 	//CHANGE NAV CSS ON SCROLL
 	$(window).scroll( function(){
@@ -17,8 +17,8 @@
 	});
 
 	//DELAYED MAIN NAV REVEAL
-	$('#home .main-nav')
-    .delay(1500)
+	$('.main-nav')
+    .delay(2000)
     .queue( function(next){
       $(this).css('top','0');
       next();

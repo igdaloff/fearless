@@ -241,9 +241,6 @@ section {
   -webkit-box-shadow: 5px -5px 50px 0px rgba(0, 0, 0, 0.9), 5px 5px 50px 0px rgba(0, 0, 0, 0.9), transparent 0 0 0 0, transparent 0 0 0;
   box-shadow: 5px -5px 50px 0px rgba(0, 0, 0, 0.9), 5px 5px 50px 0px rgba(0, 0, 0, 0.9), transparent 0 0 0 0, transparent 0 0 0;
 }
-.page-inner p {
-  text-align: justify;
-}
 .page-inner a {
   font-weight: 500;
   text-decoration: underline;
@@ -286,7 +283,6 @@ section {
 HOME
 -------------------------------------------------------------------------*/
 #home {
-  min-height: 200px;
   position: relative;
   margin-bottom: 8em;
   background: url(../images/main-bg.jpg) bottom;
@@ -328,23 +324,20 @@ h2 {
 /*-------------------------------------------------------------------------
 NAV
 -------------------------------------------------------------------------*/
-#home .main-nav {
-  top: -3em;
-}
 .main-nav {
   position: fixed;
   top: 0;
   left: 0;
   float: left;
   overflow: hidden;
-  background: rgba(255, 255, 255, 0.3);
+  background: #f2efe4;
   width: 100%;
-  height: 3em;
+  height: 6.5em;
   line-height: 3;
   text-align: center;
   font-family: "museo-sans-condensed-1", "museo-sans-condensed-2", helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.9em;
+  font-size: 0.7em;
   text-transform: uppercase;
   letter-spacing: 2px;
   -webkit-transition: all 0.5s ease;
@@ -363,8 +356,7 @@ NAV
   text-align: center;
 }
 .main-nav li {
-  display: block;
-  float: left;
+  display: inline-block;
   position: relative;
   margin: 0 0.25em;
   right: 50%;
@@ -373,86 +365,17 @@ NAV
   display: block;
   text-indent: 2px;
 }
+.main-nav .reveal-slide {
+  display: none;
+}
 .main-nav .donate-button {
-  margin: 0.25em 0 0 1.2em;
+  top: -3px;
+  position: relative;
   line-height: 2.4;
 }
 .main-nav .donate-button:hover {
   color: #f2efe4;
   border-color: #f2efe4;
-}
-.nav-scrolled {
-  background: #f2efe4;
-  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-}
-.nav-scrolled .button-slide-in div:hover {
-  color: #f2efe4;
-}
-.nav-scrolled .button-slide-in div:nth-child(2) {
-  background-color: #778ba6;
-}
-.nav-scrolled .donate-button:hover {
-  color: #778ba6;
-  border-color: #778ba6;
-}
-.button-slide-in {
-  position: relative;
-  height: 3em;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-user-select: none;
-  overflow: hidden;
-}
-.button-slide-in div {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  height: 3em;
-  padding: 0 0.75em;
-  line-height: 3;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  cursor: pointer;
-  -webkit-backface-visibility: hidden;
-}
-.button-slide-in div:nth-child(1) {
-  position: relative;
-}
-.button-slide-in div:nth-child(2) {
-  background-color: #f2efe4;
-  transition: top 0.15s ease;
-  -webkit-transition: top 0.15s ease;
-  -moz-transition: top 0.15s ease;
-  top: -3.2em;
-  z-index: -1;
-}
-.button-slide-in div:nth-child(3) {
-  transition: opacity 0.15s ease;
-  -webkit-transition: opacity 0.15s ease;
-  -moz-transition: opacity 0.15s ease;
-  opacity: 0;
-  position: relative;
-  display: inline-block;
-}
-.button-slide-in:hover div:nth-child(2) {
-  top: 0px;
-  transition: top 0.15s ease;
-  -webkit-transition: top 0.15s ease;
-  -moz-transition: top 0.15s ease;
-}
-.button-slide-in:hover div:nth-child(3) {
-  opacity: 1;
-  transition: opacity 0.15s ease;
-  -webkit-transition: opacity 0.15s ease;
-  -moz-transition: opacity 0.15s ease;
-}
-.desktop-nav {
-  display: none;
 }
 .mobile-nav-icon {
   width: 2.5em;
@@ -479,6 +402,7 @@ NAV
   content: 'r';
 }
 .mobile-nav {
+  display: none;
   position: fixed;
   top: 0;
   right: -105px;
@@ -588,7 +512,7 @@ DONATE
 }
 #donate .button {
   display: inline-block;
-  font-size: 1.8em;
+  font-size: 1.2em;
   padding: 0.5em 0;
   margin: 1em 0 1.5em;
   width: 100%;
@@ -606,19 +530,18 @@ DONATE
 CONTACT / FOOTER
 -------------------------------------------------------------------------*/
 #contact {
-  padding: 1.5em 0 0;
-  -moz-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  -webkit-box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-}
-#contact h3 {
-  border-bottom-color: #3b3c40;
-  -moz-box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  -webkit-box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  padding-top: 1em;
+  display: inline-block;
+  width: 100%;
+  background: #778ba6;
+  color: #f2efe4;
 }
 #contact h4 {
   font-size: 1em;
+}
+#contact a {
+  text-decoration: none;
+  color: inherit;
 }
 #contact .footer-logo,
 #contact .footer-contact,
@@ -634,13 +557,12 @@ CONTACT / FOOTER
   letter-spacing: 0.4em;
   line-height: 4;
   text-transform: uppercase;
+  text-decoration: none;
 }
 #contact ul {
   font-size: 0.8em;
   line-height: 1.3;
-}
-#contact ul a {
-  text-decoration: none;
+  margin-bottom: 1.5em;
 }
 #contact .footer-buttons {
   padding: 0;
@@ -651,6 +573,22 @@ CONTACT / FOOTER
   margin-bottom: 0.5em;
   font-size: 1.1em;
   line-height: 2.35;
+  border: 1px solid #f2efe4;
+}
+#contact .footer-buttons .button:hover {
+  background: #f2efe4;
+  color: #778ba6;
+}
+.footer-admin {
+  border-top: 1px solid #f2efe4;
+  padding: 1em 0;
+  margin-top: 1em;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.footer-admin span {
+  font-size: 0.8em;
 }
 #filmmakers {
   background: #778ba6;
@@ -728,6 +666,15 @@ CONTACT / FOOTER
   -webkit-box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
 }
+#afi h4 {
+  padding-left: 1em;
+}
+.afi-quote {
+  margin-bottom: 1em;
+}
+.afi-quote p {
+  font-weight: 700;
+}
 .main-afi-image {
   display: none;
 }
@@ -741,7 +688,7 @@ CONTACT / FOOTER
   padding: 1em 0 0 1em;
 }
 .alumni-list li {
-  padding: 2em 1em 2em 0;
+  padding: 2em 0;
   border-top: 1px solid #f2efe4;
   text-align: center;
   -webkit-box-sizing: border-box;
@@ -749,7 +696,7 @@ CONTACT / FOOTER
   box-sizing: border-box;
 }
 .alumni-list img {
-  width: 100%;
+  width: 70%;
   margin-bottom: 0.5em;
 }
 .alumni-list h5 {
@@ -789,13 +736,24 @@ CONTACT / FOOTER
     font-size: 80%;
   }
   #home {
-    min-height: 800px;
+    min-height: 600px;
+  }
+  .main-nav {
+    top: -3em;
+    background: #f2efe4;
+    background: rgba(255, 255, 255, 0.3);
   }
   .main header {
     top: 40%;
   }
   .separator-bg {
     position: absolute;
+  }
+  #donate .button {
+    font-size: 1.2em;
+  }
+  #contact ul {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 37.5em) {
@@ -826,12 +784,91 @@ CONTACT / FOOTER
   }
 }
 @media screen and (min-width: 43.75em) {
-  /*600px*/
-  .desktop-nav {
-    display: block;
+  /*700px*/
+  .main-nav {
+    height: 3em;
+    font-size: 0.9em;
   }
-  .mobile-nav {
-    display: none;
+  .main-nav li {
+    display: block;
+    float: left;
+  }
+  .main-nav .donate-button {
+    top: 0;
+    margin: 0.25em 0 0 1.2em;
+  }
+  .nav-scrolled {
+    background: #f2efe4;
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  }
+  .nav-scrolled .button-slide-in div:hover {
+    color: #f2efe4;
+  }
+  .nav-scrolled .button-slide-in div:nth-child(2) {
+    background-color: #778ba6;
+  }
+  .nav-scrolled .reveal-slide {
+    display: inline-block;
+  }
+  .nav-scrolled .donate-button:hover {
+    color: #778ba6;
+    border-color: #778ba6;
+  }
+  .button-slide-in {
+    position: relative;
+    height: 3em;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    overflow: hidden;
+  }
+  .button-slide-in div {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 3em;
+    padding: 0 0.75em;
+    line-height: 3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+  }
+  .button-slide-in div:nth-child(1) {
+    position: relative;
+  }
+  .button-slide-in div:nth-child(2) {
+    background-color: #f2efe4;
+    transition: top 0.15s ease;
+    -webkit-transition: top 0.15s ease;
+    -moz-transition: top 0.15s ease;
+    top: -3.2em;
+    z-index: -1;
+  }
+  .button-slide-in div:nth-child(3) {
+    transition: opacity 0.15s ease;
+    -webkit-transition: opacity 0.15s ease;
+    -moz-transition: opacity 0.15s ease;
+    opacity: 0;
+    position: relative;
+    display: inline-block;
+  }
+  .button-slide-in:hover div:nth-child(2) {
+    top: 0px;
+    transition: top 0.15s ease;
+    -webkit-transition: top 0.15s ease;
+    -moz-transition: top 0.15s ease;
+  }
+  .button-slide-in:hover div:nth-child(3) {
+    opacity: 1;
+    transition: opacity 0.15s ease;
+    -webkit-transition: opacity 0.15s ease;
+    -moz-transition: opacity 0.15s ease;
   }
 }
 @media screen and (min-width: 50em) {

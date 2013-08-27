@@ -2,17 +2,31 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Fearless Movie</title>
+	<title>Fearless The Film</title>
 	<meta name="description" content="Grace, a recently engaged woman and a to-be commercial airplane pilot, receives a surprise visit when her ex-fiancé Jericho's mother comes to see her. The visitor delivers two shocking news to Grace: Jericho, who is a Navy SEAL, has died on a mission  – and has cryopreserved his sperm to Grace. The encounter brings strong and bittersweet memories, and suddenly Grace, who is in her late 30s, has to decide what she really wants in her life.">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0">
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/styles.css">
+	<!--[if lte IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie8-and-down.css" />
+	<![endif]-->
 
 	<!-- Typekit -->
 	<script type="text/javascript" src="//use.typekit.net/ulr6pgd.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-34791769-2', 'fearlessthefilm.com');
+	  ga('send', 'pageview');
+
+	</script>
 </head>
 
 <body>
@@ -29,7 +43,7 @@
 		<div class="page-inner wrapper">
 			<div class="story-inner">
 				<h3>The Story</h3>
-				<p>Glider pilot Grace Collins finds her world her life at a crossroads when Jericho Rhodes, her ex-fiancé, wills her his cryo-preserved sperm following his death while fighting in Afghanistan. Recently engaged to adventure writer Vaughn Clover, Grace finds herself torn between a bright future and forgotten passions. Confronted with the dilemma of a lifetime, Grace must decide what she values most.</p>
+				<p>Glider pilot Grace Collins finds her life at a crossroads when Jericho Rhodes, her ex-fiancé, wills her his cryo-preserved sperm following his death while fighting in Afghanistan. Recently engaged to adventure writer Vaughn Clover, Grace finds herself torn between a bright future and forgotten passions. Confronted with the dilemma of a lifetime, Grace must decide what she values most.</p>
 			</div>
 			<h4>Director's Statement</h4>
 			<p>As human beings, we always carry our history with us. Memories can be our most precious treasures or a burden that is overwhelmingly heavy to carry – or both. Most of our memories are about other human beings. To our main character Grace, the most hidden and protected memories are about the greatest love and the greatest sorrow of her life – an ex-fiancé and a special forces soldier named Jericho.</p>
@@ -53,8 +67,8 @@
 					<img src="../images/filmmakers/risto.jpg" alt="Dawn DeVoe image" />
 					<div class="bio-text">
 						<h4><span>Risto Tuominen</span>&nbsp; Director / Writer</h4>
-						<p>Risto Tuominen is a Finnish-born filmmaker who studies directing at the American Film Institute. Before relocating to Los Angeles he spent several years in the Finland's film industry, working mostly as a production manager and an assistant director for more than 20 feature films and 50 commercial film productions. Risto has also served three years in the Finnish Defence Forces. In 2008, he took part in the peacekeeping operation in Afghanistan.</p>
-						<p><a href="http://ristotuominen.com" target="_blank">Visit the Director's Site</a></p>
+						<p>Risto Tuominen is a Finnish-born filmmaker who studies directing at the American Film Institute. Before relocating to Los Angeles he spent several years in Finland's film industry, working mostly as a production manager and an assistant director for more than 20 feature films and 50 commercial film productions. Risto has also served three years in the Finnish Defence Forces. In 2008, he took part in the peacekeeping operation in Afghanistan.</p>
+						<p><a href="http://ristotuominen.com" target="_blank">ristotuominen.com</a></p>
 					</div>
 				</li>
 				<li>
@@ -94,11 +108,11 @@
 	<section id="afi" class="main">
 		<div class="page-inner wrapper">
 			<h3>About the AFI Conservatory</h3>
-			<p>"Art is a nation's most precious heritage.</p>
-			<p>For it is in our works of art that we reveal to ourselves, and to others, the inner vision which guides us as a nation, and where there is no vision, the people perish.</p>
-			<p>We will create an american film institute, bringing together leading artists of the film industry, outstanding educators and young men and women who wish to pursue the 20th century art form as their life's work."</p>
+			<div class="afi-quote">
+				<p>"Art is a nation's most precious heritage. For it is in our works of art that we reveal to ourselves, and to others, the inner vision which guides us as a nation, and where there is no vision, the people perish. We will create an american film institute, bringing together leading artists of the film industry, outstanding educators and young men and women who wish to pursue the 20th century art form as their life's work."</p>
+				<p>President Lyndon B. Johnson<br>September 29, 1965</p>
+			</div>
 			<img class="main-afi-image" src="images/afi/afi-wb-building.jpg" alt="AFI Warner Brother's Building" />
-			<p>President Lyndon B. Johnson<br>September 29, 1965</p>
 			<p>Consistently regarded as one of the top film schools in the world, the American Film Institute Conservatory has been training award-winning filmmakers since its establishment in 1969. As part of the American Film Institute's dedication to preserving and expanding America's film heritage, the Conservatory's Masters of Fine Arts program is highly selective and provides a unique hands-on approach that provides students an opportunity to produce more films than any other graduate film program. The two-year Master of Fine Arts program emphasizes narrative visual storytelling and personal expression and culminates with the collaboration of fellows from the six disciplines — Cinematography, Directing, Editing, Producing, Production Design and Screenwriting — on a thesis film produced in a professional-style environment.</p>
 			<p>AFI thesis films have garnered numerous prestigious awards, including several Oscar nominations, the Oscar for best narrative short, the Student Oscar, the Director's Guild of America Awards, several American Society of Cinematography Awards, and top honors from the American Cinema Editors.</p>
 			<p>Traditionally AFI thesis films are instrumental in launching its fellows' careers in film.</p>
@@ -257,15 +271,13 @@
 			</ul>
 			<h4>MAKE AN IN-KIND DONATION</h4>
 			<p>Any in-kind service donations including: film stock, soundstage rental, equipment (camera, grip, lighting), locations, catering (food and beverage), construction supplies, art department supplies (props, set dressing), post production services (visual effects, digital effects, lab work or coloring), or any other contribution will be gladly&nbsp;accepted.</p>
-			<h4>CONTACT</h4>
-			<p>Dawn DeVoe, Producer, 917 623 0066, <a href="mailto:dawndeVoe@fearlessthefilm.com">dawndeVoe@fearlessthefilm.com</a></p>
 		</div>
 		<div class="separator-bg sky"></div>
 	</section>
 
 	<footer id="contact">
 		<div class="page-inner wrapper">
-			<span class="footer-logo">Fearless</span>
+			<a href="/" class="footer-logo">Fearless</a>
 			<div class="footer-contact">
 				<h4>Contact</h4>
 				<ul>
@@ -287,10 +299,13 @@
 
 			<div class="footer-buttons">
 				<ul>
-					<li><a href="" class="button">Facebook</a></li>
+					<li><a href="https://www.facebook.com/fearlessthefilm" target="_blank" class="button">Facebook</a></li>
 					<li><a href="#donate" class="button">Donate</a></li>
 				</ul>
 			</div>
+		</div>
+		<div class="footer-admin">
+			<span>© Copyright 2013. FEARLESS | An AFI Thesis Film. All Rights Reserved.</span>
 		</div>
 	</footer>
 
@@ -299,6 +314,6 @@
 	<script src="js/jquery.throttle.min.js"></script>
 	<script src="js/jquery.easing.1.3.js"></script>
 	<script src="js/jquery.plusanchor.js"></script>
-	<script src="js/script.js"></script>
+	<script src="js/script-ck.js"></script>
 </body>
 </html>
