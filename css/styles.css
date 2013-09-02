@@ -329,10 +329,9 @@ NAV
   top: 0;
   left: 0;
   float: left;
-  overflow: hidden;
   background: #f2efe4;
   width: 100%;
-  height: 6.5em;
+  height: 6em;
   line-height: 3;
   text-align: center;
   font-family: "museo-sans-condensed-1", "museo-sans-condensed-2", helvetica, sans-serif;
@@ -345,6 +344,9 @@ NAV
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   z-index: 10000;
+}
+.main-nav .wrapper {
+  width: 100%;
 }
 .main-nav ul {
   clear: left;
@@ -369,7 +371,6 @@ NAV
   display: none;
 }
 .main-nav .donate-button {
-  top: -3px;
   position: relative;
   line-height: 2.4;
 }
@@ -739,63 +740,11 @@ CONTACT / FOOTER
     min-height: 600px;
   }
   .main-nav {
-    top: -3em;
+    top: -7em;
+    height: 6.5em;
+    line-height: inherit;
     background: #f2efe4;
     background: rgba(255, 255, 255, 0.3);
-  }
-  .main header {
-    top: 40%;
-  }
-  .separator-bg {
-    position: absolute;
-  }
-  #donate .button {
-    font-size: 1.2em;
-  }
-  #contact ul {
-    margin-bottom: 0;
-  }
-}
-@media screen and (min-width: 37.5em) {
-  /*600px*/
-  body {
-    font-size: 90%;
-  }
-  .wrapper {
-    width: 90%;
-  }
-  h3 {
-    font-size: 3em;
-  }
-  #contact .footer-logo,
-  #contact .footer-contact,
-  #contact .footer-address,
-  #contact .footer-buttons {
-    float: left;
-    width: 25%;
-    padding-right: 5%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: left;
-  }
-  #contact .footer-buttons ul {
-    text-align: right;
-  }
-}
-@media screen and (min-width: 43.75em) {
-  /*700px*/
-  .main-nav {
-    height: 3em;
-    font-size: 0.9em;
-  }
-  .main-nav li {
-    display: block;
-    float: left;
-  }
-  .main-nav .donate-button {
-    top: 0;
-    margin: 0.25em 0 0 1.2em;
   }
   .nav-scrolled {
     background: #f2efe4;
@@ -811,6 +760,9 @@ CONTACT / FOOTER
   }
   .nav-scrolled .reveal-slide {
     display: inline-block;
+  }
+  .nav-scrolled .donate-button {
+    top: -1.1em;
   }
   .nav-scrolled .donate-button:hover {
     color: #778ba6;
@@ -869,6 +821,66 @@ CONTACT / FOOTER
     transition: opacity 0.15s ease;
     -webkit-transition: opacity 0.15s ease;
     -moz-transition: opacity 0.15s ease;
+  }
+  .main header {
+    top: 40%;
+  }
+  .separator-bg {
+    position: absolute;
+  }
+  #donate .button {
+    font-size: 1.2em;
+  }
+  #contact ul {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 35em) {
+  /*560px*/
+  body {
+    font-size: 90%;
+  }
+  .wrapper {
+    width: 90%;
+  }
+  h3 {
+    font-size: 3em;
+  }
+  .main-nav {
+    height: 3.25em;
+  }
+  .main-nav .donate-button {
+    top: -1.1em;
+    margin: 0.25em 0 0 1.2em;
+  }
+  #contact .footer-logo,
+  #contact .footer-contact,
+  #contact .footer-address,
+  #contact .footer-buttons {
+    float: left;
+    width: 25%;
+    padding-right: 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  #contact .footer-buttons ul {
+    text-align: right;
+  }
+}
+@media screen and (min-width: 43.75em) {
+  /*700px*/
+  .main-nav {
+    height: 3em;
+    font-size: 0.9em;
+  }
+  .main-nav li {
+    display: block;
+    float: left;
+  }
+  .main-nav .donate-button {
+    top: 0;
   }
 }
 @media screen and (min-width: 50em) {
