@@ -64,11 +64,11 @@
 			<h3>The Filmmakers</h3>
 			<ul class="filmmakers-list">
 				<li>
-					<img src="../images/filmmakers/risto.jpg" alt="Dawn DeVoe image" />
+					<img src="../images/filmmakers/risto.jpg" alt="Risto Tuominen image" />
 					<div class="bio-text">
 						<h4><span>Risto Tuominen</span>&nbsp; Director / Writer</h4>
 						<p>Risto Tuominen is a Finnish-born filmmaker who studies directing at the American Film Institute. Before relocating to Los Angeles he spent several years in Finland's film industry, working mostly as a production manager and an assistant director for more than 20 feature films and 50 commercial film productions. Risto has also served three years in the Finnish Defence Forces. In 2008, he took part in the peacekeeping operation in Afghanistan.</p>
-						<p><a href="http://ristotuominen.com" target="_blank">ristotuominen.com</a></p>
+						<p><a href="//ristotuominen.com" target="_blank">ristotuominen.com</a></p>
 					</div>
 				</li>
 				<li>
@@ -79,17 +79,25 @@
 					</div>
 				</li>
 				<li>
-					<img src="../images/filmmakers/wu.jpg" alt="Dawn DeVoe image" />
+					<img src="../images/filmmakers/wu.jpg" alt="Ed Wu image" />
 					<div class="bio-text">
 						<h4><span>Ed Wu</span>&nbsp; Cinematographer</h4>
 						<p>Ed Wu explores the world through the lens of his camera. An honorary Hoosier from Long Island, NY, Ed transplanted to Los Angeles in search of uncovering and learning the magic behind visual storytelling. Through his experiences as a cinematographer and wanderer of the world, he's seen the power of an image and constantly searches for the perfect frame to tell the story.  Ed's body of work ranges from music videos, documentaries, narratives, and commercials for corporate clients such as Wal-Mart, Popular Mechanics, and New Era.  His film SPARKS has received recognition at the Short Film Corner at Cannes International Film Festival and a Best Picture nomination at the CMF International Grand Finale. Additionally, his work on the feature film NATHAN AND THE LUTHIER earned an official acceptance into the Heartland Film Festival and YES Film Festival.</p>
 					</div>
 				</li>
 				<li>
-					<img src="../images/filmmakers/john.jpg" alt="Dawn DeVoe image" />
+					<img src="../images/filmmakers/john.jpg" alt="John Carner image" />
 					<div class="bio-text">
 						<h4><span>John Carner</span>&nbsp; Editor</h4>
 						<p>After receiving a BA in Political Science and German from the University of Virginia, John worked briefly on Capitol Hill before turning to a career in television news. As a producer and editor at Eurovision Americas, he travelled around the world to cover breaking stories including Barack Obama's 2009 inauguration, the Gulf of Mexico oil spill, the earthquake in Haiti and the death of Michael Jackson. After five years in journalism, John used his experience in television to pursue his passion for film, attending first USC's Summer Film Program before enrolling in the American Film Institute's MFA editing program. John has worked as an editor on numerous shorts and promotional films as well as serving as the assistant editor on two features: 2011's COMMENCEMENT and 2013's CHRISTMAS BELLE.</p>
+					</div>
+				</li>
+				<li>
+					<img src="../images/filmmakers/marlie.jpg" alt="Marlie Arnold image" />
+					<div class="bio-text">
+						<h4><span>Marlie Arnold</span>&nbsp; Production Designer</h4>
+						<p>Marlie grew up in Indiana before moving to Florida to practice architecture. Before long, Tinseltown called and Marlie moved west to pursue life as a Production Designer. Her rich and varied experience thus far covers work including short films, commercials, music videos and features, most recently Disney's TOMORROWLAND and 20th Century Fox's THE FANTASTIC FOUR. Marlie's true passion lies in the search for visual authenticity and beautiful, character enhancing environments. A huge fan and supporter of AFI, Marlie is pleased to be part of her third project with the school, previously working on FIRST IN FLIGHT and BE WITH&nbsp;ME.</p>
+						<p><a href="//marliearnold.squarespace.com">marliearnold.squarespace.com</a></p>
 					</div>
 				</li>
 			</ul>
