@@ -23,7 +23,7 @@
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-	  ga('create', 'UA-34791769-2', 'fearlessthefilm.com');
+	  ga('create', 'UA-43685656-1', 'fearlessthefilm.com');
 	  ga('send', 'pageview');
 
 	</script>
