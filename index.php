@@ -255,7 +255,7 @@
 			<div class="team-photo-wrapper">
 				<img src="images/donate/team.jpg" alt="Fearless Team Photo" />
 			</div>
-			<p>As students and independent filmmakers, we depend on the generosity of our relatives, friends, and other third party contributors to help our project become a reality. AFI has provided us with a $13,000 grant and our goal is $65,000.  To begin production, we must meet our fundraising goal by October 1st, 2013.  Your support of FEARLESS is an investment in our futures as&nbsp;filmmakers.</p>
+			<p>As students and independent filmmakers, we depend on the generosity of our relatives, friends, and other third party contributors to help our project become a reality. AFI has provided us with a $13,000 grant and our goal is $65,000. Your support of FEARLESS is an investment in our futures as&nbsp;filmmakers.</p>
 			<p>All contributions $10,000 and up will be awarded Executive Producer in the end&nbsp;credits.</p>
 			<p><strong>Donations may be tax deductible.</strong> As a non-profit educational institution, AFI holds a tax-exempt status. Donations toward the making of the film may be tax deductible under Section 170 of the US tax code. All contributions will receive a letter of acknowledgment from the American Film Institute that can be used for tax&nbsp;purposes.</p>
 			<h4>MATCHING GRANTS</h4>
