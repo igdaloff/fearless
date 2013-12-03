@@ -43,7 +43,7 @@
 		<div class="page-inner wrapper">
 			<div class="story-inner">
 				<h3>The Story</h3>
-				<p>Glider pilot Grace Collins finds her life at a crossroads when Jericho Rhodes, her ex-fiancé, wills her his cryo-preserved sperm following his death while fighting in Afghanistan. Recently engaged to adventure writer Vaughn Clover, Grace finds herself torn between a bright future and forgotten passions. Confronted with the dilemma of a lifetime, Grace must decide what she values most.</p>
+				<p>Grace Collins finds her life at a crossroads when Jericho Rhodes, her ex-fiancé, wills her his cryo-preserved sperm following his death while fighting in Afghanistan. Recently engaged to adventure writer Vaughn Clover, Grace finds herself torn between a bright future and forgotten passions. Confronted with the dilemma of a lifetime, Grace must decide what she values most.</p>
 			</div>
 			<h4>Director's Statement</h4>
 			<p>As human beings, we always carry our history with us. Memories can be our most precious treasures or a burden that is overwhelmingly heavy to carry – or both. Most of our memories are about other human beings. To our main character Grace, the most hidden and protected memories are about the greatest love and the greatest sorrow of her life – an ex-fiancé and a special forces soldier named Jericho.</p>
