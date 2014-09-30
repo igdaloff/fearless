@@ -285,7 +285,7 @@ HOME
 #home {
   position: relative;
   margin-bottom: 8em;
-  background: url(../images/main-bg.jpg) bottom;
+  background: url(../images/main-bg2.jpg) bottom;
   background-size: cover;
   -moz-box-shadow: 5px 5px 50px 0px rgba(59, 60, 64, 0.9), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   -webkit-box-shadow: 5px 5px 50px 0px rgba(59, 60, 64, 0.9), transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
@@ -305,20 +305,19 @@ h1 {
   font-family: "museo-sans-condensed-1", "museo-sans-condensed-2", helvetica, sans-serif;
   font-weight: 300;
   letter-spacing: 0.4em;
-  font-size: 2em;
+  font-size: 5.5em;
   margin-left: 0.4em;
   /*To correct for letter spacing centering issue*/
-
 }
 h2 {
-  margin-bottom: 0.5em;
-  font-size: 0.5em;
+  margin-bottom: 1em;
+  font-size: 1em;
   font-family: "museo-sans-condensed-1", "museo-sans-condensed-2", helvetica, sans-serif;
   font-weight: 500;
   letter-spacing: 0.4em;
+  line-height: 1.3;
   margin-left: 0.4em;
   /*To correct for letter spacing centering issue*/
-
   text-transform: uppercase;
 }
 /*-------------------------------------------------------------------------
@@ -462,18 +461,34 @@ MINIMAL CONTENT SECTIONS
 #cast {
   padding: 8em 0;
   text-align: center;
-  color: #f2efe4;
-  background: url(../images/cast/cast-bg-darker.jpg) bottom no-repeat;
+  background: url(../images/texture-tan.jpg);
 }
 #cast h3 {
-  border-bottom: 4px double #f2efe4;
-  -moz-box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  -webkit-box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
-  box-shadow: 0 1px 0 0 #f2efe4, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  border-bottom: 4px double #3b3c40;
+  -moz-box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  -webkit-box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+  box-shadow: 0 1px 0 0 #3b3c40, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
+}
+#cast h4 {
+  text-align: left;
+  color: #778ba6;
 }
 #cast p {
-  font-size: 1.4em;
-  text-align: center;
+  color: #778ba6;
+  text-align: left;
+}
+@media screen and (min-width: 30em) {
+  /*480px*/
+  #cast .cast-list img {
+    float: left;
+    width: 25%;
+  }
+  #cast .cast-list .bio-text {
+    float: left;
+    width: 72.5%;
+    margin: 0;
+    padding-left: 2.5%;
+  }
 }
 #trailer {
   padding: 6em 0 36em;
@@ -502,7 +517,6 @@ DONATE
   box-shadow: 0 0 0 transparent, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   background: #f2efe4;
   background: url(../images/texture-tan.jpg);
-  border-bottom: 1px solid #3b3c40;
 }
 #donate h3 {
   border-bottom-color: #3b3c40;
@@ -525,6 +539,26 @@ DONATE
 #donate .team-photo-wrapper img {
   width: 100%;
   border-radius: 1px;
+}
+/*-------------------------------------------------------------------------
+SLOAN
+-------------------------------------------------------------------------*/
+#sloan {
+  padding: 8em 0;
+  margin: 0;
+  background: #778ba6;
+  background: url(../images/texture-blue.jpg);
+  color: #f2efe4;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #3b3c40;
+}
+#sloan img {
+  width: 340px;
+}
+#sloan a {
+  display: block;
+  margin-top: 1em;
 }
 /*-------------------------------------------------------------------------
 CONTACT / FOOTER
@@ -604,44 +638,56 @@ CONTACT / FOOTER
 #filmmakers p {
   line-height: 1.2;
 }
-.filmmakers-list {
+.filmmakers-list,
+.cast-list {
   *zoom: 1;
 }
 .filmmakers-list:before,
-.filmmakers-list:after {
+.cast-list:before,
+.filmmakers-list:after,
+.cast-list:after {
   content: "";
   display: table;
 }
-.filmmakers-list:after {
+.filmmakers-list:after,
+.cast-list:after {
   clear: both;
 }
-.filmmakers-list li {
+.filmmakers-list li,
+.cast-list li {
   display: inline-block;
   padding: 1.5em 0;
   border-bottom: 1px solid #f2efe4;
 }
-.filmmakers-list li:last-child {
+.filmmakers-list li:last-child,
+.cast-list li:last-child {
   border: none;
   padding-bottom: 0;
 }
 .filmmakers-list img,
-.filmmakers-list .bio-text {
+.cast-list img,
+.filmmakers-list .bio-text,
+.cast-list .bio-text {
   float: left;
 }
-.filmmakers-list img {
+.filmmakers-list img,
+.cast-list img {
   width: 100%;
   border-radius: 1px;
 }
-.filmmakers-list .bio-text {
+.filmmakers-list .bio-text,
+.cast-list .bio-text {
   width: 100%;
   margin-top: 1.5em;
   font-size: 0.9em;
 }
-.filmmakers-list span {
+.filmmakers-list span,
+.cast-list span {
   color: #3b3c40;
   font-weight: 900;
 }
-.filmmakers-list a:hover {
+.filmmakers-list a:hover,
+.cast-list a:hover {
   color: #f2efe4;
 }
 @media screen and (min-width: 62.5em) {
@@ -892,5 +938,13 @@ CONTACT / FOOTER
   /*1000px*/
   body {
     font-size: 110%;
+  }
+}
+@media screen and (max-width: 43.75em) {
+  #home h1 {
+    font-size: 3em;
+  }
+  #home h2 {
+    font-size: 0.8em;
   }
 }

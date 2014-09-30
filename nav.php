@@ -50,6 +50,13 @@
         <div class="reveal-slide">Contact</div>
 			</a>
 		</li>
+		<li>
+			<a href="#sloan" class="button-slide-in">
+        <div>Sloan</div>
+        <div></div>
+        <div class="reveal-slide">Sloan</div>
+			</a>
+		</li>
 		<li><a class="button donate-button" href="#donate">Donate</a></li>
 	</ul>
 </nav>

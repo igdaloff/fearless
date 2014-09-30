@@ -32,7 +32,7 @@
 			speed: 400,
 			onInit: function( base ) {
 
-				if ( base.initHash != '' && $(base.initHash).length > 0 ) {
+				if ( base.initHash !== '' && $(base.initHash).length > 0 ) {
 					window.location.hash = 'hash_' + base.initHash.substring(1);
 					window.scrollTo(0, 0);
 
@@ -51,27 +51,6 @@
 		});
 	});
 
-
-	if ( $(window).width() > 400 ) {
-
-		//FLUID HEADERS
-		jQuery("header h1").fitText(0.75);
-		jQuery("header h2").fitText(5);
-
-		//HOME PAGE PARALAX
-/*
-		function homeScroll() {
-			var $scrollTop = $(window).scrollTop();
-			var $homeContainer = $('#home');
-				$homeContainer.css({
-					'top': Math.round(($scrollTop / 2))
-				});
-		}
-
-		$(window).scroll( $.throttle( 10, homeScroll ) );
-*/
-	}
-
 	//SHOW MOBILE NAV
 	$('.mobile-nav-icon').on('click', function(){
 		$('.mobile-nav').toggleClass('mobile-nav-active');
@@ -79,5 +58,6 @@
 	});
 
 
-
+	//FLUID VIDEO
+	$('.trailer-wrapper').fitVids();
 })();
