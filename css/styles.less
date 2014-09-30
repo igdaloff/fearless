@@ -132,6 +132,7 @@ h3{
 	width: 100%;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+	text-align: center;
 	border-bottom: 4px double @white;
 	.box-shadow(0 1px 0 0 @white);
 }
@@ -406,6 +407,7 @@ NAV
 .mobile-nav-active{
 	right: 0;
 }
+
 /*-------------------------------------------------------------------------
 MINIMAL CONTENT SECTIONS
 -------------------------------------------------------------------------*/
@@ -437,7 +439,7 @@ MINIMAL CONTENT SECTIONS
 }
 
 #cast{
-	padding: 8em 0;
+	padding: 4em 0;
 	text-align: center;
 	background: url(../images/texture-tan.jpg);
 
@@ -535,15 +537,17 @@ DONATE
 SLOAN
 -------------------------------------------------------------------------*/
 #sloan{
-	padding: 8em 0;
-	margin: 0;
+	padding: 4em 0;
 	background: @blue;
 	background: url(../images/sloan/sloan-bg.jpg) no-repeat;
 	background-size: cover;
 	color: @black;
-	-webkit-box-shadow: none;
-	box-shadow: none;
 	border-bottom: 1px solid @black;
+
+	h3{
+		border-bottom: 4px double @black;
+		.box-shadow(0 1px 0 0 @black);
+	}
 
 	img{
 		width: 340px;
@@ -553,6 +557,10 @@ SLOAN
 		display: block;
 		margin-top: 1em;
 	}
+}
+
+.sloan-sub{
+	text-align: center;
 }
 
 
@@ -838,5 +846,9 @@ CONTACT / FOOTER
 		h2{
 			font-size: 0.8em;
 		}
+	}
+
+	.footer-logo{
+		padding-left: 0.4em;
 	}
 }

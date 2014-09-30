@@ -111,21 +111,21 @@
 			<h3>Cast</h3>
 			<ul class="cast-list">
 				<li>
-					<img src="/images/cast/shawn-lockie.jpg" alt="Shawn Lockie image" />
+					<img src="images/cast/shawn-lockie.jpg" alt="Shawn Lockie image" />
 					<div class="bio-text">
 						<h4><span>Shawn Lockie</span>&nbsp; GRACE COLLINS</h4>
-						<p>Shawn Lockie grew up in the San Francisco Bay Area and graduated from UCLA with a degree in Sociology.  Ms. Lockie has acted in numerous commercials, video games, TV episodics, independent short and feature films as well as theater.  Her most recent feature film, FARAH GOES BANG, won the Nora Ephron Prize at the Tribeca Film Festival 2013, and her next feature, OBJECTS is to be released this year.</p>
+						<p>Shawn Lockie grew up in the San Francisco Bay Area and graduated from UCLA with a degree in Sociology. Ms. Lockie has acted in numerous commercials, video games, TV episodics, independent short and feature films as well as theater. Her most recent feature film, FARAH GOES BANG, won the Nora Ephron Prize at the Tribeca Film Festival 2013, and her next feature, OBJECTS is to be released this year.</p>
 					</div>
 				</li>
 				<li>
-					<img src="/images/cast/will-beinbrink.jpg" alt="Will Beinbrink image" />
+					<img src="images/cast/will-beinbrink.jpg" alt="Will Beinbrink image" />
 					<div class="bio-text">
 						<h4><span>Will Beinbrink</span>&nbsp; VAUGHN COLLINS</h4>
-						<p>Will Beinbrink, a graduate of the Julliard School, thoroughly enjoyed working with Risto Tuominen, Dawn DeVoe and the entire creative team of TIDES.  Recent film and television credits include SIN CITY 2, THE DISAPPEARANCE OF ELEANOR RIGBY, AINT THEM BODIES SAINTS, JANE THE VIRGIN and NBC’s REVOLUTION.</p>
+						<p>Will Beinbrink, a graduate of the Julliard School, thoroughly enjoyed working with Risto Tuominen, Dawn DeVoe and the entire creative team of TIDES. Recent film and television credits include SIN CITY 2, THE DISAPPEARANCE OF ELEANOR RIGBY, AINT THEM BODIES SAINTS, JANE THE VIRGIN and NBC’s REVOLUTION.</p>
 					</div>
 				</li>
 				<li>
-					<img src="/images/cast/sean-brosnan.jpg" alt="Sean Brosnan image" />
+					<img src="images/cast/sean-brosnan.jpg" alt="Sean Brosnan image" />
 					<div class="bio-text">
 						<h4><span>Sean Brosnan</span>&nbsp; JERICHO RHODES</h4>
 						<p>Recent feature film credits include SURVEILLANCE 24/7, which played as an official selection of the Berlin Film Festival and A WEST TEXAS CHILDREN’S STORY, with Val Kilmer. This was followed by Sean’s role as Cpl. Daniel Redman in the HBO miniseries GENERATION KILL which the won 3 of the 11 Emmys for which it was nominated, including outstanding miniseries.</p>
@@ -134,6 +134,18 @@
 			</ul>
 		</div>
 		<div class="separator-bg cracks"></div>
+	</section>
+
+	<section id="sloan" class="main">
+		<div class="page-inner wrapper">
+			<h3>The Sloan Foundation</h3>
+			<p>Team TIDES is proud to announce that they have been selected to receive one of the top awards for thesis films: The AFI/Alfred P. Sloan Foundation Production Award. We are extremely grateful to AFI and The Sloan Foundation for their tremendous support. By awarding us this grant, AFI faculty and Sloan representatives have show its confidence in the project and the team. In an effort to promote the accurate depiction of science in film, every year the Alfred P. Sloan Foundation grants this Production Award to AFI fellows for their work on films which address topics of science, scientists, or scientific method. In order to aid the fellows in the effort of portraying science accurately, each applicant works closely with a science mentor who will aid him or her in assuring that the science depicted in the film is as close to reality as possible.</p>
+			<div class="sloan-sub">
+				<a href="http://www.sloan.org"><img src="images/sloan/sloan-logo.png" alt="Sloan logo" /></a>
+				<a href="http://sloan-film.com/">http://sloan-film.com</a>
+			</div>
+		</div>
+		<div class="separator-bg water"></div>
 	</section>
 
 	<section id="afi" class="main">
@@ -297,14 +309,6 @@
 		<div class="separator-bg sky"></div>
 	</section>
 
-	<section id="sloan" class="main">
-		<div class="page-inner wrapper">
-			<h3>The Sloan Foundation</h3>
-			<p>Team TIDES  is proud to announce that they have been selected to receive one of the top awards for thesis films The AFI/Alfred P. Sloan Foundation Production Award.  We are extremely grateful to AFI and The Sloan Foundation for their tremendous support.  By awarding us this grant, AFI faculty and Sloan representatives has show its confidence in the project and the team.  In an effort to promote the accurate depiction of science in film, every year the Alfred P. Sloan Foundation grants this Production Award to AFI fellow/s for their work on films which address topics of science, scientists, or scientific method.  In order to aid the fellows in the effort of portraying science accurately, each applicant will be working closely with a science mentor who will aid him or her in assuring that the science depicted in the film is as close to reality as possible.</p>
-			<a href="http://www.sloan.org"><img src="images/sloan/sloan-logo.png" alt="Sloan logo" /></a>
-			<a href="http://sloan-film.com/">http://sloan-film.com/</a>
-		</div>
-	</section>
 	<footer id="contact">
 		<div class="page-inner wrapper">
 			<a href="/" class="footer-logo">Tides</a>

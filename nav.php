@@ -37,17 +37,17 @@
 			</a>
 		</li>
 		<li>
-			<a href="#afi" class="button-slide-in">
-        <div>AFI</div>
-        <div></div>
-        <div class="reveal-slide">AFI</div>
-			</a>
-		</li>
-		<li>
 			<a href="#sloan" class="button-slide-in">
         <div>Sloan</div>
         <div></div>
         <div class="reveal-slide">Sloan</div>
+			</a>
+		</li>
+		<li>
+			<a href="#afi" class="button-slide-in">
+        <div>AFI</div>
+        <div></div>
+        <div class="reveal-slide">AFI</div>
 			</a>
 		</li>
 		<li>
@@ -78,6 +78,9 @@
 		</li>
 		<li>
 			<a href="#cast">Cast</a>
+		</li>
+		<li>
+			<a href="#sloan">Sloan</a>
 		</li>
 		<li>
 			<a href="#afi">AFI</a>
