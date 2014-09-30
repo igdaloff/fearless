@@ -9,6 +9,13 @@
 			</a>
 		</li>
 		<li>
+			<a href="#trailer" class="button-slide-in">
+        <div>Trailer</div>
+        <div></div>
+        <div class="reveal-slide">Trailer</div>
+			</a>
+		</li>
+		<li>
 			<a href="#story" class="button-slide-in">
         <div>Story</div>
         <div></div>
@@ -37,10 +44,10 @@
 			</a>
 		</li>
 		<li>
-			<a href="#trailer" class="button-slide-in">
-        <div>Trailer</div>
+			<a href="#sloan" class="button-slide-in">
+        <div>Sloan</div>
         <div></div>
-        <div class="reveal-slide">Trailer</div>
+        <div class="reveal-slide">Sloan</div>
 			</a>
 		</li>
 		<li>
@@ -48,13 +55,6 @@
         <div>Contact</div>
         <div></div>
         <div class="reveal-slide">Contact</div>
-			</a>
-		</li>
-		<li>
-			<a href="#sloan" class="button-slide-in">
-        <div>Sloan</div>
-        <div></div>
-        <div class="reveal-slide">Sloan</div>
 			</a>
 		</li>
 		<li><a class="button donate-button" href="#donate">Donate</a></li>
@@ -68,6 +68,9 @@
 			<a href="/">Home</a>
 		</li>
 		<li>
+			<a href="#trailer">Trailer</a>
+		</li>
+		<li>
 			<a href="#story">Story</a>
 		</li>
 		<li>
@@ -78,9 +81,6 @@
 		</li>
 		<li>
 			<a href="#afi">AFI</a>
-		</li>
-		<li>
-			<a href="#trailer">Trailer</a>
 		</li>
 		<li>
 			<a href="#contact">Contact</a>
